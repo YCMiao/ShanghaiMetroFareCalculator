@@ -1,0 +1,93 @@
+{
+  "client_tag": null,
+  "mapwidth": "1000",
+  "mapheight": "1000",
+  "categories": [],
+  "levels": [
+    {
+      "id": "shmetro",
+      "title": "Shanghai Metro Tube Map",
+      "map": "http://marketing.cyberspaceit.cn/interface/metromap/maps/linesh-51.svg",
+      "minimap": "maps/france-mini.jpg",
+      "locations": [
+        {
+          "id": "station5131",
+          "title": "虹桥2号航站楼",
+          "description": "虹桥2号航站楼",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.265",
+          "y": "0.4114",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station5132",
+          "title": "中春路",
+          "description": "中春路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.2646",
+          "y": "0.5041",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station5133",
+          "title": "景洪路",
+          "description": "景洪路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4228",
+          "y": "0.6642",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station5134",
+          "title": "三林南",
+          "description": "三林南",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4748",
+          "y": "0.6621",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station5135",
+          "title": "康桥东",
+          "description": "康桥东",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7442",
+          "y": "0.6621",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station5136",
+          "title": "上海国际旅游度假区",
+          "description": "上海国际旅游度假区",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7734",
+          "y": "0.6699",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station5137",
+          "title": "浦东1号2号航站楼",
+          "description": "浦东1号2号航站楼",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.8238",
+          "y": "0.7425",
+          "zoom": "12",
+          "distance": null
+        }
+      ]
+    }
+  ]
+}

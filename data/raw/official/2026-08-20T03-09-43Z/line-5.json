@@ -1,0 +1,225 @@
+{
+  "client_tag": null,
+  "mapwidth": "1000",
+  "mapheight": "1000",
+  "categories": [],
+  "levels": [
+    {
+      "id": "shmetro",
+      "title": "Shanghai Metro Tube Map",
+      "map": "http://marketing.cyberspaceit.cn/interface/metromap/maps/linesh-5.svg",
+      "minimap": "maps/france-mini.jpg",
+      "locations": [
+        {
+          "id": "station0501",
+          "title": "莘庄",
+          "description": "莘庄",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3201",
+          "y": "0.6252",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0502",
+          "title": "春申路",
+          "description": "春申路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3182",
+          "y": "0.6771",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0503",
+          "title": "银都路",
+          "description": "银都路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.322",
+          "y": "0.6889",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0505",
+          "title": "颛桥",
+          "description": "颛桥",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3178",
+          "y": "0.7005",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0507",
+          "title": "北桥",
+          "description": "北桥",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3222",
+          "y": "0.7123",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0508",
+          "title": "剑川路",
+          "description": "剑川路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.318",
+          "y": "0.7241",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0509",
+          "title": "东川路",
+          "description": "东川路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.322",
+          "y": "0.7357",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0510",
+          "title": "金平路",
+          "description": "金平路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.304",
+          "y": "0.7489",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0511",
+          "title": "华宁路",
+          "description": "华宁路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.283",
+          "y": "0.7531",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0512",
+          "title": "文井路",
+          "description": "文井路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.2618",
+          "y": "0.7487",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0513",
+          "title": "闵行开发区",
+          "description": "闵行开发区",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.2406",
+          "y": "0.7527",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0531",
+          "title": "江川路",
+          "description": "江川路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3219",
+          "y": "0.7631",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0532",
+          "title": "西渡",
+          "description": "西渡",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.322",
+          "y": "0.7801",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0533",
+          "title": "萧塘",
+          "description": "萧塘",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3262",
+          "y": "0.7943",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0534",
+          "title": "奉浦大道",
+          "description": "奉浦大道",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3382",
+          "y": "0.8065",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0535",
+          "title": "环城东路",
+          "description": "环城东路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3836",
+          "y": "0.8233",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0536",
+          "title": "望园路",
+          "description": "望园路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4178",
+          "y": "0.8233",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0537",
+          "title": "金海湖",
+          "description": "金海湖",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4866",
+          "y": "0.8589",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0538",
+          "title": "奉贤新城",
+          "description": "奉贤新城",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.519",
+          "y": "0.9317",
+          "zoom": "12",
+          "distance": null
+        }
+      ]
+    }
+  ]
+}

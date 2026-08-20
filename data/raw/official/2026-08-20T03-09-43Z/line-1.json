@@ -1,0 +1,324 @@
+{
+  "client_tag": null,
+  "mapwidth": "1000",
+  "mapheight": "1000",
+  "categories": [],
+  "levels": [
+    {
+      "id": "shmetro",
+      "title": "Shanghai Metro Tube Map",
+      "map": "http://marketing.cyberspaceit.cn/interface/metromap/maps/linesh-1.svg",
+      "minimap": "maps/france-mini.jpg",
+      "locations": [
+        {
+          "id": "station0111",
+          "title": "莘庄",
+          "description": "莘庄",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3201",
+          "y": "0.6252",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0112",
+          "title": "外环路",
+          "description": "外环路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.332",
+          "y": "0.6099",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0113",
+          "title": "莲花路",
+          "description": "莲花路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3445",
+          "y": "0.5978",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0114",
+          "title": "锦江乐园",
+          "description": "锦江乐园",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3569",
+          "y": "0.586",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0115",
+          "title": "上海南站",
+          "description": "上海南站",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3732",
+          "y": "0.5724",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0116",
+          "title": "漕宝路",
+          "description": "漕宝路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3841",
+          "y": "0.5612",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0117",
+          "title": "上海体育馆",
+          "description": "上海体育馆",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3961",
+          "y": "0.4924",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0118",
+          "title": "徐家汇",
+          "description": "徐家汇",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4186",
+          "y": "0.4706",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0119",
+          "title": "衡山路",
+          "description": "衡山路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4376",
+          "y": "0.453",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0120",
+          "title": "常熟路",
+          "description": "常熟路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.452",
+          "y": "0.4358",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0121",
+          "title": "陕西南路",
+          "description": "陕西南路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4784",
+          "y": "0.4358",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0122",
+          "title": "一大会址·黄陂南路",
+          "description": "一大会址·黄陂南路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.524",
+          "y": "0.4176",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0123",
+          "title": "人民广场",
+          "description": "人民广场",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5236",
+          "y": "0.3948",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0124",
+          "title": "新闸路",
+          "description": "新闸路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5154",
+          "y": "0.3609",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0125",
+          "title": "汉中路",
+          "description": "汉中路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4996",
+          "y": "0.3496",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0126",
+          "title": "上海火车站",
+          "description": "上海火车站",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5013",
+          "y": "0.3271",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0127",
+          "title": "中山北路",
+          "description": "中山北路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.297",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0128",
+          "title": "延长路",
+          "description": "延长路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.2814",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0129",
+          "title": "上海马戏城",
+          "description": "上海马戏城",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.261",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0130",
+          "title": "汶水路",
+          "description": "汶水路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.2434",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0131",
+          "title": "彭浦新村",
+          "description": "彭浦新村",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.2207",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0132",
+          "title": "共康路",
+          "description": "共康路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.1973",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0133",
+          "title": "通河新村",
+          "description": "通河新村",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.1741",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0134",
+          "title": "呼兰路",
+          "description": "呼兰路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.1505",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0135",
+          "title": "共富新村",
+          "description": "共富新村",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5",
+          "y": "0.1273",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0136",
+          "title": "宝安公路",
+          "description": "宝安公路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4954",
+          "y": "0.0985",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0137",
+          "title": "友谊西路",
+          "description": "友谊西路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4664",
+          "y": "0.0679",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station0138",
+          "title": "富锦路",
+          "description": "富锦路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4623",
+          "y": "0.0284",
+          "zoom": "12",
+          "distance": null
+        }
+      ]
+    }
+  ]
+}

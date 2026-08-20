@@ -1,0 +1,159 @@
+{
+  "client_tag": null,
+  "mapwidth": "1000",
+  "mapheight": "1000",
+  "categories": [],
+  "levels": [
+    {
+      "id": "shmetro",
+      "title": "Shanghai Metro Tube Map",
+      "map": "http://marketing.cyberspaceit.cn/interface/metromap/maps/linesh-16.svg",
+      "minimap": "maps/france-mini.jpg",
+      "locations": [
+        {
+          "id": "station1621",
+          "title": "龙阳路",
+          "description": "龙阳路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.6752",
+          "y": "0.501",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1622",
+          "title": "华夏中路",
+          "description": "华夏中路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7017",
+          "y": "0.591",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1623",
+          "title": "罗山路",
+          "description": "罗山路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7017",
+          "y": "0.6553",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1624",
+          "title": "周浦东",
+          "description": "周浦东",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7003",
+          "y": "0.6894",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1625",
+          "title": "鹤沙航城",
+          "description": "鹤沙航城",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7003",
+          "y": "0.7111",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1626",
+          "title": "航头东",
+          "description": "航头东",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7003",
+          "y": "0.7328",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1627",
+          "title": "新场",
+          "description": "新场",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7003",
+          "y": "0.7546",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1628",
+          "title": "野生动物园",
+          "description": "野生动物园",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7003",
+          "y": "0.7762",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1629",
+          "title": "惠南",
+          "description": "惠南",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7192",
+          "y": "0.7997",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1630",
+          "title": "惠南东",
+          "description": "惠南东",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7508",
+          "y": "0.8319",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1631",
+          "title": "书院",
+          "description": "书院",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7826",
+          "y": "0.8635",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1632",
+          "title": "临港大道",
+          "description": "临港大道",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.8106",
+          "y": "0.9017",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1633",
+          "title": "滴水湖",
+          "description": "滴水湖",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.811",
+          "y": "0.9565",
+          "zoom": "12",
+          "distance": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "client_tag": null,
+  "mapwidth": "1000",
+  "mapheight": "1000",
+  "categories": [],
+  "levels": [
+    {
+      "id": "shmetro",
+      "title": "Shanghai Metro Tube Map",
+      "map": "http://marketing.cyberspaceit.cn/interface/metromap/maps/linesh-13.svg",
+      "minimap": "maps/france-mini.jpg",
+      "locations": [
+        {
+          "id": "station1321",
+          "title": "金运路",
+          "description": "金运路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.2689",
+          "y": "0.3508",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1322",
+          "title": "金沙江西路",
+          "description": "金沙江西路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.2875",
+          "y": "0.3478",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1323",
+          "title": "丰庄",
+          "description": "丰庄",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3059",
+          "y": "0.3506",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1324",
+          "title": "祁连山南路",
+          "description": "祁连山南路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3245",
+          "y": "0.348",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1325",
+          "title": "真北路",
+          "description": "真北路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3431",
+          "y": "0.351",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1326",
+          "title": "大渡河路",
+          "description": "大渡河路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3617",
+          "y": "0.3496",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1327",
+          "title": "金沙江路",
+          "description": "金沙江路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.3935",
+          "y": "0.3496",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1328",
+          "title": "隆德路",
+          "description": "隆德路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4181",
+          "y": "0.3493",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1329",
+          "title": "武宁路",
+          "description": "武宁路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4335",
+          "y": "0.3496",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1330",
+          "title": "长寿路",
+          "description": "长寿路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4523",
+          "y": "0.3494",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1331",
+          "title": "江宁路",
+          "description": "江宁路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4751",
+          "y": "0.3476",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1332",
+          "title": "汉中路",
+          "description": "汉中路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4996",
+          "y": "0.3496",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1333",
+          "title": "自然博物馆",
+          "description": "自然博物馆",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5007",
+          "y": "0.3794",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1334",
+          "title": "南京西路",
+          "description": "南京西路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.4996",
+          "y": "0.3977",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1335",
+          "title": "淮海中路",
+          "description": "淮海中路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5009",
+          "y": "0.4062",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1336",
+          "title": "一大会址·新天地",
+          "description": "一大会址·新天地",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5169",
+          "y": "0.4441",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1337",
+          "title": "马当路",
+          "description": "马当路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5164",
+          "y": "0.4705",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1338",
+          "title": "世博会博物馆",
+          "description": "世博会博物馆",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5153",
+          "y": "0.5276",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1339",
+          "title": "世博大道",
+          "description": "世博大道",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5155",
+          "y": "0.5546",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1340",
+          "title": "长清路",
+          "description": "长清路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5195",
+          "y": "0.575",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1341",
+          "title": "成山路",
+          "description": "成山路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5392",
+          "y": "0.5911",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1342",
+          "title": "东明路",
+          "description": "东明路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.5796",
+          "y": "0.5914",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1343",
+          "title": "华鹏路 ",
+          "description": "华鹏路 ",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.6059",
+          "y": "0.5926",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1344",
+          "title": "下南路",
+          "description": "下南路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.6227",
+          "y": "0.5894",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1345",
+          "title": "北蔡",
+          "description": "北蔡",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.6395",
+          "y": "0.5928",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1346",
+          "title": "陈春路 ",
+          "description": "陈春路 ",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.6563",
+          "y": "0.5896",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1347",
+          "title": "莲溪路",
+          "description": "莲溪路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.6753",
+          "y": "0.591",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1348",
+          "title": "华夏中路",
+          "description": "华夏中路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7017",
+          "y": "0.591",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1349",
+          "title": "中科路",
+          "description": "中科路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7395",
+          "y": "0.589",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1350",
+          "title": "学林路 ",
+          "description": "学林路 ",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7601",
+          "y": "0.5892",
+          "zoom": "12",
+          "distance": null
+        },
+        {
+          "id": "station1351",
+          "title": "张江路",
+          "description": "张江路",
+          "pin": "hidden",
+          "fill": "#4d5e6d",
+          "x": "0.7831",
+          "y": "0.5896",
+          "zoom": "12",
+          "distance": null
+        }
+      ]
+    }
+  ]
+}
