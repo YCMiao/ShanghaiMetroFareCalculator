@@ -31,10 +31,10 @@ def apply_branch_corrections(edges: list[dict], stations: dict[str, dict]) -> li
 
     corrected = list(edges)
     for line, old_from, old_to, new_from, new_to in BRANCH_EDGE_CORRECTIONS:
-        false_edges = [edge for edge in corrected if edge_names(edge) == (line, old_from, old_to)]
-        if not false_edges:
+        false_index = next((index for index, edge in enumerate(corrected)
+                            if edge_names(edge) == (line, old_from, old_to)), None)
+        if false_index is None:
             continue
-        corrected = [edge for edge in corrected if edge not in false_edges]
         candidates = {
             name: sorted({station_id for edge in edges if edge["line_id"] == line
                           for station_id in (edge["from_station_id"], edge["to_station_id"])
@@ -44,7 +44,7 @@ def apply_branch_corrections(edges: list[dict], stations: dict[str, dict]) -> li
         if any(len(ids) != 1 for ids in candidates.values()):
             raise ValueError(f"cannot identify branch endpoints for Line {line}")
         from_station_id, to_station_id = candidates[new_from][0], candidates[new_to][0]
-        corrected.append({
+        corrected[false_index] = {
             "id": f"{line}:{from_station_id}:{to_station_id}",
             "from_station_id": from_station_id,
             "to_station_id": to_station_id,
@@ -52,7 +52,7 @@ def apply_branch_corrections(edges: list[dict], stations: dict[str, dict]) -> li
             "distance_m": None,
             "distance_source": None,
             "verification": "pending_pdf",
-        })
+        }
     return corrected
 
 

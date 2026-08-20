@@ -4432,6 +4432,15 @@
       "verification": "auto_read"
     },
     {
+      "id": "5:station0509:station0531",
+      "from_station_id": "station0509",
+      "to_station_id": "station0531",
+      "line_id": "5",
+      "distance_m": 1485,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
+    },
+    {
       "id": "5:station0531:station0532",
       "from_station_id": "station0531",
       "to_station_id": "station0532",
@@ -5611,6 +5620,15 @@
       "verification": "reviewed"
     },
     {
+      "id": "10:station1020:station1045",
+      "from_station_id": "station1020",
+      "to_station_id": "station1045",
+      "line_id": "10",
+      "distance_m": 2253,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
+    },
+    {
       "id": "10:station1041:station1042",
       "from_station_id": "station1041",
       "to_station_id": "station1042",
@@ -5960,6 +5978,15 @@
       "distance_m": 5383,
       "distance_source": "pdf_label",
       "verification": "auto_read"
+    },
+    {
+      "id": "11:station1120:station1134",
+      "from_station_id": "station1120",
+      "to_station_id": "station1134",
+      "line_id": "11",
+      "distance_m": 3118,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station1131:station1132",
@@ -7859,33 +7886,6 @@
       "distance_m": 1351,
       "distance_source": "pdf_label",
       "verification": "auto_read"
-    },
-    {
-      "id": "5:station0509:station0531",
-      "from_station_id": "station0509",
-      "to_station_id": "station0531",
-      "line_id": "5",
-      "distance_m": 1485,
-      "distance_source": "pdf_label",
-      "verification": "reviewed"
-    },
-    {
-      "id": "10:station1020:station1045",
-      "from_station_id": "station1020",
-      "to_station_id": "station1045",
-      "line_id": "10",
-      "distance_m": 2253,
-      "distance_source": "pdf_label",
-      "verification": "reviewed"
-    },
-    {
-      "id": "11:station1120:station1134",
-      "from_station_id": "station1120",
-      "to_station_id": "station1134",
-      "line_id": "11",
-      "distance_m": 3118,
-      "distance_source": "pdf_label",
-      "verification": "reviewed"
     }
   ],
   "transfers": [

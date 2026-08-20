@@ -19,6 +19,7 @@ class BranchTopologyTests(unittest.TestCase):
 
         self.assertNotIn("5:station0501:station0502", {edge["id"] for edge in corrected})
         self.assertIn("5:station0503:station0502", {edge["id"] for edge in corrected})
+        self.assertEqual(corrected[0]["id"], "5:station0503:station0502")
 
 
 if __name__ == "__main__":
