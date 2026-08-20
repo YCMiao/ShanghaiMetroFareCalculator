@@ -4818,11 +4818,11 @@
       "verification": "auto_read"
     },
     {
-      "id": "5:station:闵行开发区:station:江川路",
-      "from_station_id": "station:闵行开发区",
+      "id": "5:station:东川路:station:江川路",
+      "from_station_id": "station:东川路",
       "to_station_id": "station:江川路",
       "line_id": "5",
-      "distance_m": 1487,
+      "distance_m": 1485,
       "distance_source": "pdf_label",
       "verification": "reviewed"
     },
@@ -6006,11 +6006,11 @@
       "verification": "reviewed"
     },
     {
-      "id": "10:station:龙柏新村:station:虹桥火车站",
+      "id": "10:station:龙柏新村:station:龙溪路",
       "from_station_id": "station:龙柏新村",
-      "to_station_id": "station:虹桥火车站",
+      "to_station_id": "station:龙溪路",
       "line_id": "10",
-      "distance_m": 696,
+      "distance_m": 2253,
       "distance_source": "pdf_label",
       "verification": "reviewed"
     },
@@ -6366,11 +6366,11 @@
       "verification": "auto_read"
     },
     {
-      "id": "11:station:上海赛车场:station:嘉定北",
+      "id": "11:station:上海赛车场:station:嘉定新城",
       "from_station_id": "station:上海赛车场",
-      "to_station_id": "station:嘉定北",
+      "to_station_id": "station:嘉定新城",
       "line_id": "11",
-      "distance_m": 3919,
+      "distance_m": 3118,
       "distance_source": "pdf_label",
       "verification": "reviewed"
     },

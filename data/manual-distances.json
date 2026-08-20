@@ -307,11 +307,6 @@
       "verification": "reviewed"
     },
     {
-      "edge_id": "5:station:闵行开发区:station:江川路",
-      "distance_m": 1487,
-      "verification": "reviewed"
-    },
-    {
       "edge_id": "5:station:望园路:station:金海湖",
       "distance_m": 1216,
       "verification": "reviewed"
@@ -517,11 +512,6 @@
       "verification": "reviewed"
     },
     {
-      "edge_id": "10:station:龙柏新村:station:虹桥火车站",
-      "distance_m": 696,
-      "verification": "reviewed"
-    },
-    {
       "edge_id": "10:station:虹桥火车站:station:虹桥2号航站楼",
       "distance_m": 696,
       "verification": "reviewed"
@@ -594,11 +584,6 @@
     {
       "edge_id": "11:station:上海汽车城:station:昌吉东路",
       "distance_m": 2286,
-      "verification": "reviewed"
-    },
-    {
-      "edge_id": "11:station:上海赛车场:station:嘉定北",
-      "distance_m": 3919,
       "verification": "reviewed"
     },
     {
@@ -964,6 +949,21 @@
     {
       "edge_id": "41:station:浦航路:station:东城一路",
       "distance_m": 1181,
+      "verification": "reviewed"
+    },
+    {
+      "edge_id": "5:station:东川路:station:江川路",
+      "distance_m": 1485,
+      "verification": "reviewed"
+    },
+    {
+      "edge_id": "10:station:龙柏新村:station:龙溪路",
+      "distance_m": 2253,
+      "verification": "reviewed"
+    },
+    {
+      "edge_id": "11:station:上海赛车场:station:嘉定新城",
+      "distance_m": 3118,
       "verification": "reviewed"
     }
   ]

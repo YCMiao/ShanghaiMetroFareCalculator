@@ -16,6 +16,31 @@ PLANNED_METRO_LINES = [
     {"id": "22", "name": "22号线", "service_status": "planned", "enabled_by_default": False},
     {"id": "23", "name": "23号线", "service_status": "planned", "enabled_by_default": False},
 ]
+BRANCH_EDGE_CORRECTIONS = (
+    ("5", "闵行开发区", "江川路", "东川路", "江川路"),
+    ("10", "龙柏新村", "虹桥火车站", "龙柏新村", "龙溪路"),
+    ("11", "上海赛车场", "嘉定北", "上海赛车场", "嘉定新城"),
+)
+
+
+def apply_branch_corrections(edges: list[dict]) -> list[dict]:
+    false_ids = {f"{line}:station:{old_from}:station:{old_to}" for line, old_from, old_to, _, _ in BRANCH_EDGE_CORRECTIONS}
+    present_false_ids = {edge["id"] for edge in edges} & false_ids
+    corrected = [edge for edge in edges if edge["id"] not in false_ids]
+    for line, _, _, new_from, new_to in BRANCH_EDGE_CORRECTIONS:
+        false_id = next(item for item in false_ids if item.startswith(f"{line}:"))
+        if false_id not in present_false_ids:
+            continue
+        corrected.append({
+            "id": f"{line}:station:{new_from}:station:{new_to}",
+            "from_station_id": f"station:{new_from}",
+            "to_station_id": f"station:{new_to}",
+            "line_id": line,
+            "distance_m": None,
+            "distance_source": None,
+            "verification": "pending_pdf",
+        })
+    return corrected
 
 
 def build_network(lines: list[dict], stations_by_line: dict[int, dict], fetched_at: str) -> dict:
@@ -69,7 +94,7 @@ def build_network(lines: list[dict], stations_by_line: dict[int, dict], fetched_
         "stations": sorted(stations.values(), key=lambda station: station["id"]),
         "lines": graph_lines,
         "planned_lines": PLANNED_METRO_LINES,
-        "edges": edges,
+        "edges": apply_branch_corrections(edges),
     }
 
 
