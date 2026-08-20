@@ -1,34 +1,38 @@
-# Shanghai Metro shortest-path data
+# Shanghai Metro Fare Calculator
 
-`data/metro-network.json` is the current graph skeleton.
+输入上海地铁起点与终点站，计算仅按线路区间里程得到的理论最短路径与票价。
 
-- `lines` contains official operating metro lines; line 51 (市域机场线) is excluded.
-- Same-named official stations share one station node, so transfers are connected with zero additional cost in the first version.
-- Every edge starts with `distance_m: null`. A route must not use an edge until its printed PDF distance has been entered and reviewed.
-- `planned_lines` keeps Lines 19-23 disabled by default. When their stations and distances are transcribed, set their status/profile to include them without changing the router.
+当前版本覆盖 1–18 号线及浦江线。换乘站以官方站点 ID 分开建模，换乘距离暂按 0 米计算；因此结果不包含站内步行距离、换乘时间或最少换乘偏好。
 
-Refresh the official operating-station snapshot and rebuild the skeleton:
+## 运行
 
-```bash
-python3 scripts/fetch_official_snapshot.py --output data/raw/official
-python3 scripts/build_official_network.py data/raw/official/<timestamp>
-```
-
-`scripts/extract_pdf_distances.py` writes direct, unambiguous readings to `data/auto-distances.json`. `data/distance-audit.json` is reserved for segments that remain ambiguous or cannot be matched to a station label.
-
-```json
-{"edge_id": "<edge id>", "distance_m": <printed metre value>, "verification": "reviewed"}
-```
+需要 Python 3，无额外依赖。
 
 ```bash
-python3 scripts/extract_pdf_distances.py
-python3 scripts/apply_pdf_distances.py
+python3 route_server.py
 ```
 
-For manual review, run `python3 scripts/audit_server.py` and open `http://127.0.0.1:8765`. Confirm the candidate value or type the correct metre value; the page updates the graph and removes the item from the audit list.
+然后在浏览器打开 <http://127.0.0.1:8766>。
 
-Run the current tests:
+也可以直接在终端查询：
 
 ```bash
-python3 -m unittest tests/test_build_official_network.py -v
+python3 route.py 莘庄 滴水湖
 ```
+
+## 票价
+
+- 0–6 公里：3 元
+- 超过 6 公里后，每满不足 10 公里加收 1 元
+
+## 项目结构
+
+- `data/metro-network.json`：最短路径计算使用的地铁图数据与站间距离。
+- `data/metro-map.json`：前端线路图使用的站点坐标与线路颜色。
+- `route.py`：Dijkstra 最短路径与票价计算。
+- `route_server.py`：本地网页服务与路线查询接口。
+- `ui/route/`：网页界面。
+
+## 数据说明
+
+本站点与线路信息基于上海地铁官方公开数据整理；站间距离按配线图人工复核录入。项目用于理论距离计算，不作为运营信息或票务依据。

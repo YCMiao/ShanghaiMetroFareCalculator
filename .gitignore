@@ -30,3 +30,16 @@ htmlcov/
 .env
 .env.*
 !.env.example
+
+# Local source snapshots, maintenance tools, and review material
+/data/auto-distances.json
+/data/distance-audit.json
+/data/manual-distances.json
+/data/raw/
+/docs/
+/tests/
+/ui/audit/
+/scripts/*
+!/scripts/__init__.py
+!/scripts/price.py
+/上海轨道交通全网配线V2025.26.2.pdf
