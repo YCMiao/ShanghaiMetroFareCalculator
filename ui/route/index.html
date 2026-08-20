@@ -7,13 +7,20 @@
 <main class="shell">
   <header class="masthead"><p class="eyebrow">SHANGHAI METRO / DISTANCE ONLY</p><h1>理论最短距离</h1><p>只按线路区间里程计算，换乘暂不计步行距离或时间。</p></header>
   <section class="search-card" aria-label="路线查询">
-    <label>起点站<input id="origin" list="stations" placeholder="例如：莘庄" autocomplete="off"></label>
+    <div class="station-field"><label>起点站<input id="origin" list="stations" placeholder="例如：莘庄" autocomplete="off"></label><button class="map-pick" type="button" data-target="origin">按线路选择</button></div>
     <button class="swap" id="swap" type="button" aria-label="交换起终点">⇄</button>
-    <label>终点站<input id="destination" list="stations" placeholder="例如：滴水湖" autocomplete="off"></label>
+    <div class="station-field"><label>终点站<input id="destination" list="stations" placeholder="例如：滴水湖" autocomplete="off"></label><button class="map-pick" type="button" data-target="destination">按线路选择</button></div>
     <datalist id="stations"></datalist><button class="submit" id="search" type="button">查询路线</button>
   </section>
   <p class="message" id="message" aria-live="polite">输入两个站名后开始查询。</p>
   <section id="result" hidden aria-live="polite"></section>
 </main>
+<dialog class="station-selector" id="station-selector" aria-labelledby="selector-title">
+  <form method="dialog"><button class="dialog-close" aria-label="关闭线路选择">×</button></form>
+  <p class="eyebrow">LINE → STATION</p><h2 id="selector-title">选择起点</h2>
+  <p class="selector-hint" id="selector-hint">先选择线路。</p>
+  <div class="line-list" id="line-list"></div>
+  <div class="station-list-picker" id="station-list-picker"></div>
+</dialog>
 <script src="/app.js"></script>
 </html>

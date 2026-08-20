@@ -70,6 +70,27 @@ body {
   font-weight: 700;
 }
 
+.station-field {
+  display: grid;
+  gap: 8px;
+}
+
+.map-pick {
+  justify-self: start;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--red);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.map-pick:hover {
+  text-decoration: underline;
+}
+
 input {
   width: 100%;
   padding: 12px 13px;
@@ -163,6 +184,47 @@ input:focus {
   font-size: 16px;
 }
 
+.network-svg {
+  display: block;
+  width: 100%;
+  max-height: 580px;
+  margin: 0 0 28px;
+  background: #f3f8f8;
+  border: 1px solid #dce8ea;
+}
+
+.network-edge {
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 3;
+  opacity: 0.22;
+}
+
+.route-edge {
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 9;
+}
+
+.map-endpoint {
+  fill: var(--paper);
+  stroke: var(--red);
+  stroke-width: 5;
+}
+
+.endpoint-1 {
+  stroke: var(--ink);
+}
+
+.map-label {
+  fill: var(--ink);
+  font-size: 20px;
+  font-weight: 800;
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 6px;
+}
+
 .route-ribbon {
   display: flex;
   align-items: stretch;
@@ -216,6 +278,80 @@ input:focus {
   color: var(--red);
 }
 
+.station-selector {
+  width: min(760px, calc(100vw - 32px));
+  max-height: min(720px, calc(100vh - 48px));
+  padding: 30px;
+  overflow: auto;
+  background: var(--paper);
+  border: 1px solid #c5d8dc;
+  box-shadow: 0 28px 80px #1238;
+  color: var(--ink);
+}
+
+.station-selector::backdrop {
+  background: #102a3388;
+}
+
+.station-selector form {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.dialog-close {
+  width: 34px;
+  height: 34px;
+  background: #e3edef;
+  border: 0;
+  color: var(--ink);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.station-selector h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.selector-hint {
+  margin: 8px 0 20px;
+  color: var(--muted);
+}
+
+.line-list,
+.station-list-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.station-list-picker {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid #d9e6e8;
+}
+
+.line-choice,
+.station-choice {
+  padding: 9px 12px;
+  background: #fff;
+  border: 1px solid #bfced1;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.line-choice {
+  border-left: 7px solid var(--line-color);
+}
+
+.line-choice:hover,
+.station-choice:hover {
+  border-color: var(--red);
+}
+
 @media (max-width: 720px) {
   .shell {
     padding: 42px 16px;
@@ -249,5 +385,12 @@ input:focus {
 
   .route-card {
     padding: 22px 18px;
+  }
+
+  .station-selector {
+    width: 100%;
+    max-height: 78vh;
+    margin: auto 0 0;
+    border: 0;
   }
 }

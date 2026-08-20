@@ -45,7 +45,15 @@ def route_response(network: dict, origin: str, destination: str) -> dict:
         name = names[station_id]
         if not station_names or station_names[-1] != name:
             station_names.append(name)
-    return {"distance_m": route.distance_m, "fare_yuan": fare_yuan(route.distance_m), "stations": station_names, "legs": legs, "transfers": transfers}
+    return {
+        "distance_m": route.distance_m,
+        "fare_yuan": fare_yuan(route.distance_m),
+        "station_ids": route.station_ids,
+        "edge_ids": route.edge_ids,
+        "stations": station_names,
+        "legs": legs,
+        "transfers": transfers,
+    }
 
 
 def handler(root: Path):
@@ -62,6 +70,11 @@ def handler(root: Path):
             if path == "/api/stations":
                 network = json.loads((root / "data" / "metro-network.json").read_text())
                 return self.send_json(sorted({station["name"].strip() for station in network["stations"]}))
+            if path == "/api/lines":
+                network = json.loads((root / "data" / "metro-network.json").read_text())
+                return self.send_json(network["lines"])
+            if path == "/api/map":
+                return self.send_json(json.loads((root / "data" / "metro-map.json").read_text()))
             if path not in content_types:
                 return self.send_error(HTTPStatus.NOT_FOUND)
             filename, content_type = content_types[path]

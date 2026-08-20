@@ -16,6 +16,8 @@ class RouteServerTests(unittest.TestCase):
 
         self.assertEqual(response["distance_m"], 1200)
         self.assertEqual(response["fare_yuan"], 3)
+        self.assertEqual(response["station_ids"], ["a", "b"])
+        self.assertEqual(response["edge_ids"], ["1:a:b"])
         self.assertEqual(response["legs"][0]["stations"], ["甲", "乙"])
 
 
