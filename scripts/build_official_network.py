@@ -70,11 +70,12 @@ def build_network(lines: list[dict], stations_by_line: dict[int, dict], fetched_
         station_ids = []
         for location in locations:
             official_station_id = location["id"]
+            station_name = location["title"].strip()
             station_id = official_station_id
             station_ids.append(station_id)
             stations.setdefault(station_id, {
                 "id": station_id,
-                "name": location["title"],
+                "name": station_name,
                 "official_id": official_station_id,
             })
         line_id = str(official_line_id)

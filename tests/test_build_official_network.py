@@ -48,6 +48,15 @@ class BuildNetworkTests(unittest.TestCase):
             "distance_m": 0,
         }])
 
+    def test_trims_official_station_name_for_search_and_transfer_matching(self):
+        network = build_network(
+            [{"line_no": 1}],
+            {1: {"levels": [{"locations": [{"id": "station0123", "title": " 人民广场 "}]}]}},
+            fetched_at="2026-08-20T00:00:00Z",
+        )
+
+        self.assertEqual(network["stations"][0]["name"], "人民广场")
+
 
 if __name__ == "__main__":
     unittest.main()
