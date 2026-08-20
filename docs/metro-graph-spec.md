@@ -13,7 +13,7 @@
 
 ## 数据契约
 
-每条线路保存 `id`、`name`、`service_status`、`source` 和有序 `station_ids`。车站使用稳定 `id`、中文 `name`、可选 `official_ids`；同一物理换乘站在图中只使用一个车站节点。相邻站边保存 `from`、`to`、`line_id`、`distance_m`、`distance_source` 与 `verification`。
+每条线路保存 `id`、`name`、`service_status`、`source` 和有序 `station_ids`。车站的稳定 `id` 直接使用官方站点 ID，另保存中文 `name`。相邻站边保存 `from`、`to`、`line_id`、`distance_m`、`distance_source` 与 `verification`。所有换乘关系单独写入 `transfers`，其两端均为官方站点 ID；第一版的每条换乘边均为 `distance_m: 0`。
 
 - `distance_m` 未核对前必须为 `null`，不得用坐标或图面比例估算替代。
 - 路径请求若经过 `distance_m: null` 的边，必须失败并说明缺少哪一段距离。

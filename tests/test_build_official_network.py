@@ -20,9 +20,9 @@ class BuildNetworkTests(unittest.TestCase):
 
         self.assertEqual([line["id"] for line in network["lines"]], ["1"])
         self.assertEqual(network["edges"], [{
-            "id": "1:station:莘庄:station:外环路",
-            "from_station_id": "station:莘庄",
-            "to_station_id": "station:外环路",
+            "id": "1:station0111:station0112",
+            "from_station_id": "station0111",
+            "to_station_id": "station0112",
             "line_id": "1",
             "distance_m": None,
             "distance_source": None,
@@ -31,7 +31,7 @@ class BuildNetworkTests(unittest.TestCase):
         self.assertEqual(network["planned_lines"][0]["id"], "19")
         self.assertFalse(network["planned_lines"][0]["enabled_by_default"])
 
-    def test_merges_same_named_station_across_lines(self):
+    def test_keeps_same_named_station_across_lines_separate_with_zero_transfer(self):
         lines = [{"line_no": 1}, {"line_no": 2}]
         stations_by_line = {
             1: {"levels": [{"locations": [{"id": "station0123", "title": "人民广场"}]}]},
@@ -40,10 +40,12 @@ class BuildNetworkTests(unittest.TestCase):
 
         network = build_network(lines, stations_by_line, fetched_at="2026-08-20T00:00:00Z")
 
-        self.assertEqual(network["stations"], [{
-            "id": "station:人民广场",
-            "name": "人民广场",
-            "official_ids": ["station0123", "station0201"],
+        self.assertEqual({station["id"] for station in network["stations"]}, {"station0123", "station0201"})
+        self.assertEqual(network["transfers"], [{
+            "id": "transfer:station0123:station0201",
+            "from_station_id": "station0123",
+            "to_station_id": "station0201",
+            "distance_m": 0,
         }])
 
 

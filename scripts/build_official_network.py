@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from itertools import combinations
 from pathlib import Path
 
 
@@ -23,18 +24,30 @@ BRANCH_EDGE_CORRECTIONS = (
 )
 
 
-def apply_branch_corrections(edges: list[dict]) -> list[dict]:
-    false_ids = {f"{line}:station:{old_from}:station:{old_to}" for line, old_from, old_to, _, _ in BRANCH_EDGE_CORRECTIONS}
-    present_false_ids = {edge["id"] for edge in edges} & false_ids
-    corrected = [edge for edge in edges if edge["id"] not in false_ids]
-    for line, _, _, new_from, new_to in BRANCH_EDGE_CORRECTIONS:
-        false_id = next(item for item in false_ids if item.startswith(f"{line}:"))
-        if false_id not in present_false_ids:
+def apply_branch_corrections(edges: list[dict], stations: dict[str, dict]) -> list[dict]:
+    """Replace concatenation artifacts in the official one-list branch ordering."""
+    def edge_names(edge: dict) -> tuple[str, str, str]:
+        return edge["line_id"], stations[edge["from_station_id"]]["name"], stations[edge["to_station_id"]]["name"]
+
+    corrected = list(edges)
+    for line, old_from, old_to, new_from, new_to in BRANCH_EDGE_CORRECTIONS:
+        false_edges = [edge for edge in corrected if edge_names(edge) == (line, old_from, old_to)]
+        if not false_edges:
             continue
+        corrected = [edge for edge in corrected if edge not in false_edges]
+        candidates = {
+            name: sorted({station_id for edge in edges if edge["line_id"] == line
+                          for station_id in (edge["from_station_id"], edge["to_station_id"])
+                          if stations[station_id]["name"] == name})
+            for name in (new_from, new_to)
+        }
+        if any(len(ids) != 1 for ids in candidates.values()):
+            raise ValueError(f"cannot identify branch endpoints for Line {line}")
+        from_station_id, to_station_id = candidates[new_from][0], candidates[new_to][0]
         corrected.append({
-            "id": f"{line}:station:{new_from}:station:{new_to}",
-            "from_station_id": f"station:{new_from}",
-            "to_station_id": f"station:{new_to}",
+            "id": f"{line}:{from_station_id}:{to_station_id}",
+            "from_station_id": from_station_id,
+            "to_station_id": to_station_id,
             "line_id": line,
             "distance_m": None,
             "distance_source": None,
@@ -45,6 +58,7 @@ def apply_branch_corrections(edges: list[dict]) -> list[dict]:
 
 def build_network(lines: list[dict], stations_by_line: dict[int, dict], fetched_at: str) -> dict:
     stations: dict[str, dict] = {}
+    station_lines: dict[str, set[str]] = {}
     graph_lines: list[dict] = []
     edges: list[dict] = []
 
@@ -56,15 +70,16 @@ def build_network(lines: list[dict], stations_by_line: dict[int, dict], fetched_
         station_ids = []
         for location in locations:
             official_station_id = location["id"]
-            station_id = f"station:{location['title']}"
+            station_id = official_station_id
             station_ids.append(station_id)
-            station = stations.setdefault(station_id, {
+            stations.setdefault(station_id, {
                 "id": station_id,
                 "name": location["title"],
-                "official_ids": [],
+                "official_id": official_station_id,
             })
-            station["official_ids"].append(official_station_id)
         line_id = str(official_line_id)
+        for station_id in station_ids:
+            station_lines.setdefault(station_id, set()).add(line_id)
         graph_lines.append({
             "id": line_id,
             "name": f"{line_id}号线" if line_id != "41" else "浦江线",
@@ -84,8 +99,22 @@ def build_network(lines: list[dict], stations_by_line: dict[int, dict], fetched_
                 "verification": "pending_pdf",
             })
 
+    transfers = []
+    station_ids_by_name: dict[str, list[str]] = {}
+    for station in stations.values():
+        station_ids_by_name.setdefault(station["name"], []).append(station["id"])
+    for station_ids in station_ids_by_name.values():
+        for left, right in combinations(sorted(station_ids), 2):
+            if station_lines[left] != station_lines[right]:
+                transfers.append({
+                    "id": f"transfer:{left}:{right}",
+                    "from_station_id": left,
+                    "to_station_id": right,
+                    "distance_m": 0,
+                })
+
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_from": {
             "source": "https://m.shmetro.com/interface/metromap/metromap.aspx",
             "fetched_at": fetched_at,
@@ -94,7 +123,8 @@ def build_network(lines: list[dict], stations_by_line: dict[int, dict], fetched_
         "stations": sorted(stations.values(), key=lambda station: station["id"]),
         "lines": graph_lines,
         "planned_lines": PLANNED_METRO_LINES,
-        "edges": apply_branch_corrections(edges),
+        "edges": apply_branch_corrections(edges, stations),
+        "transfers": transfers,
     }
 
 
