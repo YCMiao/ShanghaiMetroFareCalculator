@@ -20,6 +20,16 @@ python3 route_server.py
 python3 route.py 莘庄 滴水湖
 ```
 
+## 部署到 Render
+
+创建 **Web Service**，连接本仓库，并填写：
+
+- Runtime：`Python 3`
+- Build Command：留空
+- Start Command：`python3 route_server.py --host 0.0.0.0 --port $PORT`
+
+服务器会读取 Render 自动提供的 `PORT` 环境变量。
+
 ## 票价
 
 - 0–6 公里：3 元

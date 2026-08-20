@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -109,7 +110,10 @@ def handler(root: Path):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(); parser.add_argument("--port", type=int, default=8766); args = parser.parse_args()
-    server = ThreadingHTTPServer(("127.0.0.1", args.port), handler(ROOT))
-    print(f"Open http://127.0.0.1:{args.port}")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--host", default=os.environ.get("HOST", "127.0.0.1"))
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8766")))
+    args = parser.parse_args()
+    server = ThreadingHTTPServer((args.host, args.port), handler(ROOT))
+    print(f"Open http://{args.host}:{args.port}")
     server.serve_forever()
