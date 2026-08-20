@@ -18,6 +18,17 @@ if str(ROOT) not in sys.path:
 from route import fare_yuan, shortest_path
 
 
+def line_picker_data(network: dict) -> list[dict]:
+    """Return lines with their ride-edge topology for the station picker."""
+    edges_by_line: dict[str, list[dict]] = {}
+    for edge in network["edges"]:
+        edges_by_line.setdefault(edge["line_id"], []).append({
+            "from_station_id": edge["from_station_id"],
+            "to_station_id": edge["to_station_id"],
+        })
+    return [{**line, "edges": edges_by_line.get(line["id"], [])} for line in network["lines"]]
+
+
 def route_response(network: dict, origin: str, destination: str) -> dict:
     route = shortest_path(network, origin, destination)
     names = {station["id"]: station["name"].strip() for station in network["stations"]}
@@ -72,7 +83,7 @@ def handler(root: Path):
                 return self.send_json(sorted({station["name"].strip() for station in network["stations"]}))
             if path == "/api/lines":
                 network = json.loads((root / "data" / "metro-network.json").read_text())
-                return self.send_json(network["lines"])
+                return self.send_json(line_picker_data(network))
             if path == "/api/map":
                 return self.send_json(json.loads((root / "data" / "metro-map.json").read_text()))
             if path not in content_types:

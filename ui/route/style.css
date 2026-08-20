@@ -279,10 +279,10 @@ input:focus {
 }
 
 .station-selector {
-  width: min(760px, calc(100vw - 32px));
-  max-height: min(720px, calc(100vh - 48px));
+  width: min(980px, calc(100vw - 32px));
+  max-height: calc(100vh - 24px);
   padding: 30px;
-  overflow: auto;
+  overflow: visible;
   background: var(--paper);
   border: 1px solid #c5d8dc;
   box-shadow: 0 28px 80px #1238;
@@ -327,8 +327,10 @@ input:focus {
 }
 
 .station-list-picker {
+  position: relative;
   margin-top: 22px;
   padding-top: 20px;
+  overflow: visible;
   border-top: 1px solid #d9e6e8;
 }
 
@@ -341,6 +343,121 @@ input:focus {
   font: inherit;
   font-weight: 700;
   cursor: pointer;
+}
+
+.station-list-picker {
+  display: grid;
+  gap: 18px;
+  min-height: 104px;
+  padding-right: 8px;
+  --line-color: var(--red);
+}
+
+.track-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--station-count), minmax(0, 1fr));
+  min-width: 0;
+  gap: 0;
+  padding-top: 8px;
+}
+
+.track-row.partial-row {
+  width: var(--track-width);
+}
+
+.track-row-forward.partial-row {
+  justify-self: start;
+}
+
+.track-row-reverse.partial-row {
+  justify-self: end;
+}
+
+.branch-track {
+  width: var(--track-width);
+  margin-left: var(--branch-offset);
+}
+
+.branch-track::after {
+  position: absolute;
+  top: var(--branch-connector-top, -72px);
+  left: var(--branch-junction);
+  width: 5px;
+  height: var(--branch-connector-height, 89px);
+  background: var(--line-color);
+  content: "";
+}
+
+.track-row::before {
+  position: absolute;
+  top: 17px;
+  right: calc(100% / var(--station-count) / 2);
+  left: calc(100% / var(--station-count) / 2);
+  height: 5px;
+  background: var(--line-color);
+  content: "";
+}
+
+.track-row.continues-right::after,
+.track-row.continues-left::after {
+  position: absolute;
+  top: 17px;
+  width: 5px;
+  height: calc(100% + 26px);
+  background: var(--line-color);
+  content: "";
+}
+
+.track-row.continues-right::after {
+  right: calc((100% / var(--station-count)) / 2 - 2px);
+}
+
+.track-row.continues-left::after {
+  left: calc((100% / var(--station-count)) / 2 - 2px);
+}
+
+.track-row.continues-over-branch::after {
+  height: calc(200% + 44px);
+}
+
+.route-stop {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  gap: 7px;
+  min-width: 0;
+  padding: 0 3px;
+  background: transparent;
+  border: 0;
+  color: var(--ink);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.route-stop::before {
+  width: 18px;
+  height: 18px;
+  background: var(--paper);
+  border: 4px solid var(--line-color);
+  border-radius: 50%;
+  content: "";
+}
+
+.route-stop span {
+  display: block;
+  max-width: 72px;
+  text-align: center;
+}
+
+.route-stop:hover::before,
+.route-stop:focus-visible::before {
+  background: var(--line-color);
+  box-shadow: 0 0 0 4px #e2364633;
 }
 
 .line-choice {
@@ -389,8 +506,17 @@ input:focus {
 
   .station-selector {
     width: 100%;
-    max-height: 78vh;
+    max-height: calc(100vh - 16px);
     margin: auto 0 0;
+    overflow-y: auto;
     border: 0;
+  }
+
+  .track-row {
+    grid-template-columns: repeat(var(--station-count), minmax(0, 1fr));
+  }
+
+  .route-stop {
+    font-size: 11px;
   }
 }

@@ -83,17 +83,114 @@ function render(data) {
 }
 
 function showLineStations(line) {
-  stationList.replaceChildren(...line.station_ids.map((stationId) => {
+  const maxStationsPerRow = 14;
+  const createStop = (stationId) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "station-choice";
-    button.textContent = stationsById.get(stationId).name;
+    button.className = "route-stop";
+    button.innerHTML = `<span>${escapeHtml(stationsById.get(stationId).name)}</span>`;
     button.addEventListener("click", () => {
-      $("#" + selectorTarget).value = button.textContent;
+      $("#" + selectorTarget).value = stationsById.get(stationId).name;
       selector.close();
     });
     return button;
-  }));
+  };
+  const createRow = (stationIds, rowIndex, hasNextRow, rowCount) => {
+    const row = document.createElement("div");
+    row.className = `track-row ${rowIndex % 2 ? "track-row-reverse" : "track-row-forward"}`;
+    if (hasNextRow) row.classList.add(rowIndex % 2 ? "continues-left" : "continues-right");
+    row.style.setProperty("--station-count", stationIds.length);
+    if (!hasNextRow && rowCount > 1 && stationIds.length < maxStationsPerRow) {
+      row.classList.add("partial-row");
+      row.style.setProperty("--track-width", `${stationIds.length / maxStationsPerRow * 100}%`);
+    }
+    row.append(...stationIds.map(createStop));
+    return row;
+  };
+  const createTrackRows = (stationIds) => {
+    const rows = [];
+    for (let start = 0; start < stationIds.length; start += maxStationsPerRow) {
+      const rowIndex = rows.length;
+      const chunk = stationIds.slice(start, start + maxStationsPerRow);
+      rows.push(rowIndex % 2 ? chunk.reverse() : chunk);
+    }
+    return rows.map((row, index) => createRow(row, index, index < rows.length - 1, rows.length));
+  };
+  const adjacency = new Map(line.station_ids.map((stationId) => [stationId, []]));
+  for (const edge of line.edges || []) {
+    adjacency.get(edge.from_station_id)?.push(edge.to_station_id);
+    adjacency.get(edge.to_station_id)?.push(edge.from_station_id);
+  }
+  const findPath = (start, target) => {
+    const previous = new Map([[start, null]]);
+    const queue = [start];
+    for (let index = 0; index < queue.length; index += 1) {
+      const current = queue[index];
+      if (current === target) break;
+      for (const next of adjacency.get(current) || []) {
+        if (!previous.has(next)) {
+          previous.set(next, current);
+          queue.push(next);
+        }
+      }
+    }
+    if (!previous.has(target)) return null;
+    const path = [];
+    for (let current = target; current !== null; current = previous.get(current)) path.unshift(current);
+    return path;
+  };
+  const leaves = [...adjacency].filter(([, neighbours]) => neighbours.length === 1).map(([stationId]) => stationId);
+  const mainPath = findPath(line.station_ids[0], line.station_ids.at(-1)) || line.station_ids;
+  const branchLeaf = leaves.find((stationId) => !mainPath.includes(stationId));
+  const branchPath = branchLeaf && leaves.length === 3
+    ? findPath(branchLeaf, mainPath.find((stationId) => (adjacency.get(stationId) || []).length > 2))?.reverse()
+    : null;
+  let branchConnection;
+  stationList.style.setProperty("--line-color", line.color || "#e23646");
+  const picker = document.createDocumentFragment();
+  const mainRows = createTrackRows(mainPath);
+  if (branchPath) {
+    const junctionIndex = mainPath.indexOf(branchPath[0]);
+    const mainRowIndex = Math.floor(junctionIndex / maxStationsPerRow);
+    const mainRowStations = mainPath.slice(mainRowIndex * maxStationsPerRow, (mainRowIndex + 1) * maxStationsPerRow);
+    const isReverseRow = mainRowIndex % 2 === 1;
+    let junctionPosition = junctionIndex % maxStationsPerRow;
+    if (isReverseRow) junctionPosition = mainRowStations.length - 1 - junctionPosition;
+    let branchStations = branchPath.slice(1);
+    let branchOffset = junctionPosition;
+    let branchReversed = false;
+    if (junctionPosition + branchPath.length > mainRowStations.length) {
+      branchStations = [...branchPath.slice(1)].reverse();
+      branchOffset = junctionPosition - branchPath.length + 1;
+      branchReversed = true;
+    }
+    const branch = createRow(branchStations, 0, false, 1);
+    branch.classList.add("branch-track");
+    const spacer = document.createElement("span");
+    spacer.className = "branch-spacer";
+    if (branchReversed) branch.append(spacer); else branch.prepend(spacer);
+    branch.style.setProperty("--station-count", branchPath.length);
+    branch.style.setProperty("--track-width", `${branchPath.length / mainRowStations.length * 100}%`);
+    branch.style.setProperty("--branch-offset", `${branchOffset / mainRowStations.length * 100}%`);
+    branch.style.setProperty("--branch-junction", branchReversed
+      ? `${(branchPath.length - 0.5) / branchPath.length * 100}%`
+      : `${0.5 / branchPath.length * 100}%`);
+    branch.setAttribute("aria-label", `由 ${stationsById.get(branchPath[0]).name} 分出的支线`);
+    mainRows[mainRowIndex].classList.add("continues-over-branch");
+    branchConnection = {branch, junctionRow: mainRows[mainRowIndex]};
+    mainRows.splice(mainRowIndex + 1, 0, branch);
+  }
+  picker.append(...mainRows);
+  stationList.replaceChildren(picker);
+  if (branchConnection) {
+    requestAnimationFrame(() => {
+      const lineCenterOffset = 19.5;
+      const sourceTop = branchConnection.junctionRow.getBoundingClientRect().top + lineCenterOffset;
+      const targetTop = branchConnection.branch.getBoundingClientRect().top + lineCenterOffset;
+      branchConnection.branch.style.setProperty("--branch-connector-top", `${sourceTop - branchConnection.branch.getBoundingClientRect().top}px`);
+      branchConnection.branch.style.setProperty("--branch-connector-height", `${targetTop - sourceTop}px`);
+    });
+  }
   $("#selector-hint").textContent = `已选择 ${line.name}，点击站点完成选择。`;
 }
 
