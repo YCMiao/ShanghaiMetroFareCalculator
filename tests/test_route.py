@@ -28,6 +28,7 @@ class RouteTests(unittest.TestCase):
         output = format_route(network(), route)
         self.assertIn("乙（1号线 → 2号线）", output)
         self.assertNotIn("乙 → 乙", output)
+        self.assertIn("票价：3 元", output)
 
     def test_chooses_best_official_station_for_same_name_input(self):
         route = shortest_path(network(), " 乙 ", "丙")
@@ -38,6 +39,15 @@ class RouteTests(unittest.TestCase):
     def test_rejects_unknown_station_name(self):
         with self.assertRaisesRegex(ValueError, "unknown origin station"):
             shortest_path(network(), "不存在", "丙")
+
+    def test_accepts_fractional_distance(self):
+        data = network()
+        data["edges"][0]["distance_m"] = 100.5
+
+        route = shortest_path(data, "甲", "丙")
+
+        self.assertEqual(route.distance_m, 300.5)
+        self.assertIn("总距离：300.5 m", format_route(data, route))
 
 
 if __name__ == "__main__":

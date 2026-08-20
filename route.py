@@ -7,14 +7,17 @@ import argparse
 import heapq
 import json
 from dataclasses import dataclass
+from numbers import Real
 from pathlib import Path
+
+from scripts.price import fare_yuan
 
 
 @dataclass
 class Route:
     station_ids: list[str]
     edge_ids: list[str]
-    distance_m: int
+    distance_m: Real
 
 
 def station_ids_for_name(network: dict, name: str) -> list[str]:
@@ -33,7 +36,7 @@ def shortest_path(network: dict, origin_name: str, destination_name: str) -> Rou
     adjacency: dict[str, list[tuple[str, int, str]]] = {}
     for edge in [*network["edges"], *network["transfers"]]:
         distance = edge["distance_m"]
-        if not isinstance(distance, int) or distance < 0:
+        if isinstance(distance, bool) or not isinstance(distance, Real) or distance < 0:
             raise ValueError(f"distance is missing: {edge['id']}")
         left, right = edge["from_station_id"], edge["to_station_id"]
         adjacency.setdefault(left, []).append((right, distance, edge["id"]))
@@ -90,7 +93,7 @@ def format_route(network: dict, route: Route) -> str:
         after = next((edges[item]["line_id"] for item in route.edge_ids[index + 1:] if "line_id" in edges[item]), None)
         station_name = names[route.station_ids[index]]
         transfer_lines.append(f"{station_name}（{before}号线 → {after}号线）")
-    lines = [f"总距离：{route.distance_m} m", f"途经：{' → '.join(route_names)}"]
+    lines = [f"总距离：{route.distance_m:g} m", f"票价：{fare_yuan(route.distance_m)} 元", f"途经：{' → '.join(route_names)}"]
     if transfer_lines:
         lines.append(f"换乘：{'；'.join(transfer_lines)}")
     return "\n".join(lines)
