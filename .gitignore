@@ -1,1 +1,32 @@
+# macOS Finder metadata
 .DS_Store
+
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test, coverage, and static-analysis caches
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editor-specific local settings
+.vscode/
+
+# Local secrets; keep an example file trackable if one is added later
+.env
+.env.*
+!.env.example
