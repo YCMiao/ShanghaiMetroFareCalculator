@@ -3742,4536 +3742,4536 @@
       "from_station_id": "station:莘庄",
       "to_station_id": "station:外环路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1303,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:外环路:station:莲花路",
       "from_station_id": "station:外环路",
       "to_station_id": "station:莲花路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1459,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:莲花路:station:锦江乐园",
       "from_station_id": "station:莲花路",
       "to_station_id": "station:锦江乐园",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1633,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:锦江乐园:station:上海南站",
       "from_station_id": "station:锦江乐园",
       "to_station_id": "station:上海南站",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2089,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:上海南站:station:漕宝路",
       "from_station_id": "station:上海南站",
       "to_station_id": "station:漕宝路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1661,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:漕宝路:station:上海体育馆",
       "from_station_id": "station:漕宝路",
       "to_station_id": "station:上海体育馆",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1534,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:上海体育馆:station:徐家汇",
       "from_station_id": "station:上海体育馆",
       "to_station_id": "station:徐家汇",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1278,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:徐家汇:station:衡山路",
       "from_station_id": "station:徐家汇",
       "to_station_id": "station:衡山路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1473,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:衡山路:station:常熟路",
       "from_station_id": "station:衡山路",
       "to_station_id": "station:常熟路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1156,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:常熟路:station:陕西南路",
       "from_station_id": "station:常熟路",
       "to_station_id": "station:陕西南路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 939,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:陕西南路:station:一大会址·黄陂南路",
       "from_station_id": "station:陕西南路",
       "to_station_id": "station:一大会址·黄陂南路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1407,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:一大会址·黄陂南路:station:人民广场",
       "from_station_id": "station:一大会址·黄陂南路",
       "to_station_id": "station:人民广场",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 807,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:人民广场:station:新闸路",
       "from_station_id": "station:人民广场",
       "to_station_id": "station:新闸路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 920,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:新闸路:station:汉中路",
       "from_station_id": "station:新闸路",
       "to_station_id": "station:汉中路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 975,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:汉中路:station:上海火车站",
       "from_station_id": "station:汉中路",
       "to_station_id": "station:上海火车站",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 799,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:上海火车站:station:中山北路",
       "from_station_id": "station:上海火车站",
       "to_station_id": "station:中山北路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1371,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "1:station:中山北路:station:延长路",
       "from_station_id": "station:中山北路",
       "to_station_id": "station:延长路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1482,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:延长路:station:上海马戏城",
       "from_station_id": "station:延长路",
       "to_station_id": "station:上海马戏城",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 996,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:上海马戏城:station:汶水路",
       "from_station_id": "station:上海马戏城",
       "to_station_id": "station:汶水路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1433,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:汶水路:station:彭浦新村",
       "from_station_id": "station:汶水路",
       "to_station_id": "station:彭浦新村",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1563,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:彭浦新村:station:共康路",
       "from_station_id": "station:彭浦新村",
       "to_station_id": "station:共康路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1397,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:共康路:station:通河新村",
       "from_station_id": "station:共康路",
       "to_station_id": "station:通河新村",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1425,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:通河新村:station:呼兰路",
       "from_station_id": "station:通河新村",
       "to_station_id": "station:呼兰路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1030,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:呼兰路:station:共富新村",
       "from_station_id": "station:呼兰路",
       "to_station_id": "station:共富新村",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1777,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:共富新村:station:宝安公路",
       "from_station_id": "station:共富新村",
       "to_station_id": "station:宝安公路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1643,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:宝安公路:station:友谊西路",
       "from_station_id": "station:宝安公路",
       "to_station_id": "station:友谊西路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1314,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "1:station:友谊西路:station:富锦路",
       "from_station_id": "station:友谊西路",
       "to_station_id": "station:富锦路",
       "line_id": "1",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1274,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:蟠祥路·国家会计学院:station:国家会展中心",
       "from_station_id": "station:蟠祥路·国家会计学院",
       "to_station_id": "station:国家会展中心",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1640,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:国家会展中心:station:虹桥火车站",
       "from_station_id": "station:国家会展中心",
       "to_station_id": "station:虹桥火车站",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1842,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:虹桥火车站:station:虹桥2号航站楼",
       "from_station_id": "station:虹桥火车站",
       "to_station_id": "station:虹桥2号航站楼",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 761,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:虹桥2号航站楼:station:淞虹路",
       "from_station_id": "station:虹桥2号航站楼",
       "to_station_id": "station:淞虹路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 5920,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:淞虹路:station:北新泾",
       "from_station_id": "station:淞虹路",
       "to_station_id": "station:北新泾",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1367,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:北新泾:station:威宁路",
       "from_station_id": "station:北新泾",
       "to_station_id": "station:威宁路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1260,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:威宁路:station:娄山关路",
       "from_station_id": "station:威宁路",
       "to_station_id": "station:娄山关路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1661,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:娄山关路:station:中山公园",
       "from_station_id": "station:娄山关路",
       "to_station_id": "station:中山公园",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1618,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:中山公园:station:江苏路",
       "from_station_id": "station:中山公园",
       "to_station_id": "station:江苏路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1466,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:江苏路:station:静安寺",
       "from_station_id": "station:江苏路",
       "to_station_id": "station:静安寺",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1425,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:静安寺:station:南京西路",
       "from_station_id": "station:静安寺",
       "to_station_id": "station:南京西路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1490,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:南京西路:station:人民广场",
       "from_station_id": "station:南京西路",
       "to_station_id": "station:人民广场",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 917,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:人民广场:station:南京东路",
       "from_station_id": "station:人民广场",
       "to_station_id": "station:南京东路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1131,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:南京东路:station:陆家嘴",
       "from_station_id": "station:南京东路",
       "to_station_id": "station:陆家嘴",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1828,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:陆家嘴:station:浦东南路",
       "from_station_id": "station:陆家嘴",
       "to_station_id": "station:浦东南路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1367,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:浦东南路:station:世纪大道",
       "from_station_id": "station:浦东南路",
       "to_station_id": "station:世纪大道",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1245,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:世纪大道:station:上海科技馆",
       "from_station_id": "station:世纪大道",
       "to_station_id": "station:上海科技馆",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1810,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:上海科技馆:station:世纪公园",
       "from_station_id": "station:上海科技馆",
       "to_station_id": "station:世纪公园",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1454,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:世纪公园:station:龙阳路",
       "from_station_id": "station:世纪公园",
       "to_station_id": "station:龙阳路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1100,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:龙阳路:station:张江高科",
       "from_station_id": "station:龙阳路",
       "to_station_id": "station:张江高科",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2940,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:张江高科:station:金科路",
       "from_station_id": "station:张江高科",
       "to_station_id": "station:金科路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1393,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:金科路:station:广兰路",
       "from_station_id": "station:金科路",
       "to_station_id": "station:广兰路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2031,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:广兰路:station:唐镇",
       "from_station_id": "station:广兰路",
       "to_station_id": "station:唐镇",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3351,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:唐镇:station:创新中路",
       "from_station_id": "station:唐镇",
       "to_station_id": "station:创新中路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1788,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:创新中路:station:华夏东路",
       "from_station_id": "station:创新中路",
       "to_station_id": "station:华夏东路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2104,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:华夏东路:station:川沙",
       "from_station_id": "station:华夏东路",
       "to_station_id": "station:川沙",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2787,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:川沙:station:凌空路",
       "from_station_id": "station:川沙",
       "to_station_id": "station:凌空路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2595,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:凌空路:station:远东大道",
       "from_station_id": "station:凌空路",
       "to_station_id": "station:远东大道",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3070,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "2:station:远东大道:station:海天三路",
       "from_station_id": "station:远东大道",
       "to_station_id": "station:海天三路",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 5918,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "2:station:海天三路:station:浦东1号2号航站楼",
       "from_station_id": "station:海天三路",
       "to_station_id": "station:浦东1号2号航站楼",
       "line_id": "2",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2287,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:上海南站:station:石龙路",
       "from_station_id": "station:上海南站",
       "to_station_id": "station:石龙路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1314,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:石龙路:station:龙漕路",
       "from_station_id": "station:石龙路",
       "to_station_id": "station:龙漕路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1484,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:龙漕路:station:漕溪路",
       "from_station_id": "station:龙漕路",
       "to_station_id": "station:漕溪路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1025,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:漕溪路:station:宜山路",
       "from_station_id": "station:漕溪路",
       "to_station_id": "station:宜山路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1538,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:宜山路:station:虹桥路",
       "from_station_id": "station:宜山路",
       "to_station_id": "station:虹桥路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1355,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:虹桥路:station:延安西路",
       "from_station_id": "station:虹桥路",
       "to_station_id": "station:延安西路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1400,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:延安西路:station:中山公园",
       "from_station_id": "station:延安西路",
       "to_station_id": "station:中山公园",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 959,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:中山公园:station:金沙江路",
       "from_station_id": "station:中山公园",
       "to_station_id": "station:金沙江路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1667,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:金沙江路:station:曹杨路",
       "from_station_id": "station:金沙江路",
       "to_station_id": "station:曹杨路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 903,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:曹杨路:station:镇坪路",
       "from_station_id": "station:曹杨路",
       "to_station_id": "station:镇坪路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1373,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:镇坪路:station:中潭路",
       "from_station_id": "station:镇坪路",
       "to_station_id": "station:中潭路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1463,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:中潭路:station:上海火车站",
       "from_station_id": "station:中潭路",
       "to_station_id": "station:上海火车站",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1737,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:上海火车站:station:宝山路",
       "from_station_id": "station:上海火车站",
       "to_station_id": "station:宝山路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2010,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:宝山路:station:东宝兴路",
       "from_station_id": "station:宝山路",
       "to_station_id": "station:东宝兴路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1113,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:东宝兴路:station:虹口足球场",
       "from_station_id": "station:东宝兴路",
       "to_station_id": "station:虹口足球场",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1278,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:虹口足球场:station:赤峰路",
       "from_station_id": "station:虹口足球场",
       "to_station_id": "station:赤峰路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1150,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:赤峰路:station:大柏树",
       "from_station_id": "station:赤峰路",
       "to_station_id": "station:大柏树",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 917,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:大柏树:station:江湾镇",
       "from_station_id": "station:大柏树",
       "to_station_id": "station:江湾镇",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1794,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:江湾镇:station:殷高西路",
       "from_station_id": "station:江湾镇",
       "to_station_id": "station:殷高西路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1603,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:殷高西路:station:长江南路",
       "from_station_id": "station:殷高西路",
       "to_station_id": "station:长江南路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1514,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:长江南路:station:淞发路",
       "from_station_id": "station:长江南路",
       "to_station_id": "station:淞发路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1690,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:淞发路:station:张华浜",
       "from_station_id": "station:淞发路",
       "to_station_id": "station:张华浜",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1517,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:张华浜:station:淞滨路",
       "from_station_id": "station:张华浜",
       "to_station_id": "station:淞滨路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1538,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:淞滨路:station:水产路",
       "from_station_id": "station:淞滨路",
       "to_station_id": "station:水产路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1240,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:水产路:station:宝杨路",
       "from_station_id": "station:水产路",
       "to_station_id": "station:宝杨路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1755,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:宝杨路:station:友谊路",
       "from_station_id": "station:宝杨路",
       "to_station_id": "station:友谊路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1029,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "3:station:友谊路:station:铁力路",
       "from_station_id": "station:友谊路",
       "to_station_id": "station:铁力路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1707,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "3:station:铁力路:station:江杨北路",
       "from_station_id": "station:铁力路",
       "to_station_id": "station:江杨北路",
       "line_id": "3",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2080,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:上海体育馆:station:宜山路",
       "from_station_id": "station:上海体育馆",
       "to_station_id": "station:宜山路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1144,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:宜山路:station:虹桥路",
       "from_station_id": "station:宜山路",
       "to_station_id": "station:虹桥路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1323,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:虹桥路:station:延安西路",
       "from_station_id": "station:虹桥路",
       "to_station_id": "station:延安西路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1400,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:延安西路:station:中山公园",
       "from_station_id": "station:延安西路",
       "to_station_id": "station:中山公园",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 959,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:中山公园:station:金沙江路",
       "from_station_id": "station:中山公园",
       "to_station_id": "station:金沙江路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1667,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:金沙江路:station:曹杨路",
       "from_station_id": "station:金沙江路",
       "to_station_id": "station:曹杨路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 903,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:曹杨路:station:镇坪路",
       "from_station_id": "station:曹杨路",
       "to_station_id": "station:镇坪路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1373,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:镇坪路:station:中潭路",
       "from_station_id": "station:镇坪路",
       "to_station_id": "station:中潭路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1463,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:中潭路:station:上海火车站",
       "from_station_id": "station:中潭路",
       "to_station_id": "station:上海火车站",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1737,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:上海火车站:station:宝山路",
       "from_station_id": "station:上海火车站",
       "to_station_id": "station:宝山路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2010,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:宝山路:station:海伦路",
       "from_station_id": "station:宝山路",
       "to_station_id": "station:海伦路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1543,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:海伦路:station:临平路",
       "from_station_id": "station:海伦路",
       "to_station_id": "station:临平路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1064,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:临平路:station:大连路",
       "from_station_id": "station:临平路",
       "to_station_id": "station:大连路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1277,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:大连路:station:杨树浦路",
       "from_station_id": "station:大连路",
       "to_station_id": "station:杨树浦路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 822,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:杨树浦路:station:浦东大道",
       "from_station_id": "station:杨树浦路",
       "to_station_id": "station:浦东大道",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1369,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "4:station:浦东大道:station:世纪大道",
       "from_station_id": "station:浦东大道",
       "to_station_id": "station:世纪大道",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1466,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:世纪大道:station:向城路",
       "from_station_id": "station:世纪大道",
       "to_station_id": "station:向城路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 907,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:向城路:station:蓝村路",
       "from_station_id": "station:向城路",
       "to_station_id": "station:蓝村路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 960,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "4:station:蓝村路:station:塘桥",
       "from_station_id": "station:蓝村路",
       "to_station_id": "station:塘桥",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1140,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:塘桥:station:南浦大桥",
       "from_station_id": "station:塘桥",
       "to_station_id": "station:南浦大桥",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2170,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "4:station:南浦大桥:station:西藏南路",
       "from_station_id": "station:南浦大桥",
       "to_station_id": "station:西藏南路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1206,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "4:station:西藏南路:station:鲁班路",
       "from_station_id": "station:西藏南路",
       "to_station_id": "station:鲁班路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1401,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "4:station:鲁班路:station:大木桥路",
       "from_station_id": "station:鲁班路",
       "to_station_id": "station:大木桥路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1311,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "4:station:大木桥路:station:东安路",
       "from_station_id": "station:大木桥路",
       "to_station_id": "station:东安路",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 883,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "4:station:东安路:station:上海体育场",
       "from_station_id": "station:东安路",
       "to_station_id": "station:上海体育场",
       "line_id": "4",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1229,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "5:station:莘庄:station:春申路",
       "from_station_id": "station:莘庄",
       "to_station_id": "station:春申路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1582,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:春申路:station:银都路",
       "from_station_id": "station:春申路",
       "to_station_id": "station:银都路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1075,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:银都路:station:颛桥",
       "from_station_id": "station:银都路",
       "to_station_id": "station:颛桥",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2757,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:颛桥:station:北桥",
       "from_station_id": "station:颛桥",
       "to_station_id": "station:北桥",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2551,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:北桥:station:剑川路",
       "from_station_id": "station:北桥",
       "to_station_id": "station:剑川路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2176,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:剑川路:station:东川路",
       "from_station_id": "station:剑川路",
       "to_station_id": "station:东川路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 969,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:东川路:station:金平路",
       "from_station_id": "station:东川路",
       "to_station_id": "station:金平路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1459,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "5:station:金平路:station:华宁路",
       "from_station_id": "station:金平路",
       "to_station_id": "station:华宁路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1487,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "5:station:华宁路:station:文井路",
       "from_station_id": "station:华宁路",
       "to_station_id": "station:文井路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1446,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:文井路:station:闵行开发区",
       "from_station_id": "station:文井路",
       "to_station_id": "station:闵行开发区",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1105,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:闵行开发区:station:江川路",
       "from_station_id": "station:闵行开发区",
       "to_station_id": "station:江川路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1487,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "5:station:江川路:station:西渡",
       "from_station_id": "station:江川路",
       "to_station_id": "station:西渡",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1996,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:西渡:station:萧塘",
       "from_station_id": "station:西渡",
       "to_station_id": "station:萧塘",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2747,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:萧塘:station:奉浦大道",
       "from_station_id": "station:萧塘",
       "to_station_id": "station:奉浦大道",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2741,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:奉浦大道:station:环城东路",
       "from_station_id": "station:奉浦大道",
       "to_station_id": "station:环城东路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2342,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:环城东路:station:望园路",
       "from_station_id": "station:环城东路",
       "to_station_id": "station:望园路",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1899,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "5:station:望园路:station:金海湖",
       "from_station_id": "station:望园路",
       "to_station_id": "station:金海湖",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1216,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "5:station:金海湖:station:奉贤新城",
       "from_station_id": "station:金海湖",
       "to_station_id": "station:奉贤新城",
       "line_id": "5",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1654,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:东方体育中心:station:灵岩南路",
       "from_station_id": "station:东方体育中心",
       "to_station_id": "station:灵岩南路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1524,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:灵岩南路:station:上南路",
       "from_station_id": "station:灵岩南路",
       "to_station_id": "station:上南路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1076,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:上南路:station:华夏西路",
       "from_station_id": "station:上南路",
       "to_station_id": "station:华夏西路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 809,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:华夏西路:station:高青路",
       "from_station_id": "station:华夏西路",
       "to_station_id": "station:高青路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1414,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:高青路:station:东明路",
       "from_station_id": "station:高青路",
       "to_station_id": "station:东明路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1511,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:东明路:station:高科西路",
       "from_station_id": "station:东明路",
       "to_station_id": "station:高科西路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1455,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:高科西路:station:临沂新村 ",
       "from_station_id": "station:高科西路",
       "to_station_id": "station:临沂新村 ",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1178,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:临沂新村 :station:上海儿童医学中心",
       "from_station_id": "station:临沂新村 ",
       "to_station_id": "station:上海儿童医学中心",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1284,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:上海儿童医学中心:station:蓝村路",
       "from_station_id": "station:上海儿童医学中心",
       "to_station_id": "station:蓝村路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1052,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:蓝村路:station:浦电路 ",
       "from_station_id": "station:蓝村路",
       "to_station_id": "station:浦电路 ",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 960,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:浦电路 :station:世纪大道",
       "from_station_id": "station:浦电路 ",
       "to_station_id": "station:世纪大道",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1041,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:世纪大道:station:源深体育中心",
       "from_station_id": "station:世纪大道",
       "to_station_id": "station:源深体育中心",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 883,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:源深体育中心:station:民生路",
       "from_station_id": "station:源深体育中心",
       "to_station_id": "station:民生路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 907,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:民生路:station:北洋泾路",
       "from_station_id": "station:民生路",
       "to_station_id": "station:北洋泾路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 917,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:北洋泾路:station:德平路",
       "from_station_id": "station:北洋泾路",
       "to_station_id": "station:德平路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1329,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:德平路:station:云山路",
       "from_station_id": "station:德平路",
       "to_station_id": "station:云山路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 983,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:云山路:station:金桥路",
       "from_station_id": "station:云山路",
       "to_station_id": "station:金桥路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 757,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:金桥路:station:博兴路",
       "from_station_id": "station:金桥路",
       "to_station_id": "station:博兴路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 858,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:博兴路:station:五莲路",
       "from_station_id": "station:博兴路",
       "to_station_id": "station:五莲路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 945,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:五莲路:station:巨峰路",
       "from_station_id": "station:五莲路",
       "to_station_id": "station:巨峰路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 961,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:巨峰路:station:东靖路",
       "from_station_id": "station:巨峰路",
       "to_station_id": "station:东靖路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1110,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:东靖路:station:五洲大道",
       "from_station_id": "station:东靖路",
       "to_station_id": "station:五洲大道",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1319,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:五洲大道:station:洲海路",
       "from_station_id": "station:五洲大道",
       "to_station_id": "station:洲海路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1075,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:洲海路:station:外高桥保税区南",
       "from_station_id": "station:洲海路",
       "to_station_id": "station:外高桥保税区南",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2054,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:外高桥保税区南:station:航津路",
       "from_station_id": "station:外高桥保税区南",
       "to_station_id": "station:航津路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1706,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "6:station:航津路:station:外高桥保税区北",
       "from_station_id": "station:航津路",
       "to_station_id": "station:外高桥保税区北",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1535,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "6:station:外高桥保税区北:station:港城路",
       "from_station_id": "station:外高桥保税区北",
       "to_station_id": "station:港城路",
       "line_id": "6",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1619,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:美兰湖:station:罗南新村",
       "from_station_id": "station:美兰湖",
       "to_station_id": "station:罗南新村",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1639,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:罗南新村:station:潘广路",
       "from_station_id": "station:罗南新村",
       "to_station_id": "station:潘广路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3040,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:潘广路:station:刘行",
       "from_station_id": "station:潘广路",
       "to_station_id": "station:刘行",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 966,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:刘行:station:顾村公园",
       "from_station_id": "station:刘行",
       "to_station_id": "station:顾村公园",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1754,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:顾村公园:station:祁华路",
       "from_station_id": "station:顾村公园",
       "to_station_id": "station:祁华路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2674,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:祁华路:station:上海大学",
       "from_station_id": "station:祁华路",
       "to_station_id": "station:上海大学",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1691,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:上海大学:station:南陈路",
       "from_station_id": "station:上海大学",
       "to_station_id": "station:南陈路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 937,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:南陈路:station:上大路",
       "from_station_id": "station:南陈路",
       "to_station_id": "station:上大路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1343,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:上大路:station:场中路",
       "from_station_id": "station:上大路",
       "to_station_id": "station:场中路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1346,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:场中路:station:大场镇",
       "from_station_id": "station:场中路",
       "to_station_id": "station:大场镇",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1232,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:大场镇:station:行知路",
       "from_station_id": "station:大场镇",
       "to_station_id": "station:行知路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1037,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:行知路:station:大华三路",
       "from_station_id": "station:行知路",
       "to_station_id": "station:大华三路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1291,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:大华三路:station:新村路",
       "from_station_id": "station:大华三路",
       "to_station_id": "station:新村路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1115,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:新村路:station:岚皋路",
       "from_station_id": "station:新村路",
       "to_station_id": "station:岚皋路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 844,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:岚皋路:station:镇坪路",
       "from_station_id": "station:岚皋路",
       "to_station_id": "station:镇坪路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1587,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:镇坪路:station:长寿路",
       "from_station_id": "station:镇坪路",
       "to_station_id": "station:长寿路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1015,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:长寿路:station:昌平路",
       "from_station_id": "station:长寿路",
       "to_station_id": "station:昌平路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 831,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:昌平路:station:静安寺",
       "from_station_id": "station:昌平路",
       "to_station_id": "station:静安寺",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1321,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:静安寺:station:常熟路",
       "from_station_id": "station:静安寺",
       "to_station_id": "station:常熟路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1091,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:常熟路:station:肇嘉浜路",
       "from_station_id": "station:常熟路",
       "to_station_id": "station:肇嘉浜路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1685,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:肇嘉浜路:station:东安路",
       "from_station_id": "station:肇嘉浜路",
       "to_station_id": "station:东安路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 939,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:东安路:station:龙华中路",
       "from_station_id": "station:东安路",
       "to_station_id": "station:龙华中路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 768,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:龙华中路:station:后滩",
       "from_station_id": "station:龙华中路",
       "to_station_id": "station:后滩",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2248,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:后滩:station:长清路",
       "from_station_id": "station:后滩",
       "to_station_id": "station:长清路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1263,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:长清路:station:耀华路",
       "from_station_id": "station:长清路",
       "to_station_id": "station:耀华路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 926,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:耀华路:station:云台路",
       "from_station_id": "station:耀华路",
       "to_station_id": "station:云台路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 703,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:云台路:station:高科西路",
       "from_station_id": "station:云台路",
       "to_station_id": "station:高科西路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1073,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:高科西路:station:杨高南路",
       "from_station_id": "station:高科西路",
       "to_station_id": "station:杨高南路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1503,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:杨高南路:station:锦绣路",
       "from_station_id": "station:杨高南路",
       "to_station_id": "station:锦绣路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1413,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:锦绣路:station:芳华路",
       "from_station_id": "station:锦绣路",
       "to_station_id": "station:芳华路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1443,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "7:station:芳华路:station:龙阳路",
       "from_station_id": "station:芳华路",
       "to_station_id": "station:龙阳路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1840,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "7:station:龙阳路:station:花木路",
       "from_station_id": "station:龙阳路",
       "to_station_id": "station:花木路",
       "line_id": "7",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1375,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:沈杜公路:station:联航路",
       "from_station_id": "station:沈杜公路",
       "to_station_id": "station:联航路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1357,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:联航路:station:江月路",
       "from_station_id": "station:联航路",
       "to_station_id": "station:江月路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1199,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:江月路:station:浦江镇",
       "from_station_id": "station:江月路",
       "to_station_id": "station:浦江镇",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1384,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:浦江镇:station:芦恒路",
       "from_station_id": "station:浦江镇",
       "to_station_id": "station:芦恒路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2621,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:芦恒路:station:凌兆新村",
       "from_station_id": "station:芦恒路",
       "to_station_id": "station:凌兆新村",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2595,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:凌兆新村:station:东方体育中心",
       "from_station_id": "station:凌兆新村",
       "to_station_id": "station:东方体育中心",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2361,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:东方体育中心:station:杨思",
       "from_station_id": "station:东方体育中心",
       "to_station_id": "station:杨思",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1523,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:杨思:station:成山路",
       "from_station_id": "station:杨思",
       "to_station_id": "station:成山路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1138,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:成山路:station:耀华路",
       "from_station_id": "station:成山路",
       "to_station_id": "station:耀华路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 902,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:耀华路:station:中华艺术宫",
       "from_station_id": "station:耀华路",
       "to_station_id": "station:中华艺术宫",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 743,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:中华艺术宫:station:西藏南路",
       "from_station_id": "station:中华艺术宫",
       "to_station_id": "station:西藏南路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2042,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:西藏南路:station:陆家浜路",
       "from_station_id": "station:西藏南路",
       "to_station_id": "station:陆家浜路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 817,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:陆家浜路:station:老西门",
       "from_station_id": "station:陆家浜路",
       "to_station_id": "station:老西门",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 825,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:老西门:station:大世界",
       "from_station_id": "station:老西门",
       "to_station_id": "station:大世界",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1004,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:大世界:station:人民广场",
       "from_station_id": "station:大世界",
       "to_station_id": "station:人民广场",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 761,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:人民广场:station:曲阜路",
       "from_station_id": "station:人民广场",
       "to_station_id": "station:曲阜路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1081,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:曲阜路:station:中兴路",
       "from_station_id": "station:曲阜路",
       "to_station_id": "station:中兴路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1235,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:中兴路:station:西藏北路",
       "from_station_id": "station:中兴路",
       "to_station_id": "station:西藏北路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1226,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:西藏北路:station:虹口足球场",
       "from_station_id": "station:西藏北路",
       "to_station_id": "station:虹口足球场",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1277,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:虹口足球场:station:曲阳路",
       "from_station_id": "station:虹口足球场",
       "to_station_id": "station:曲阳路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1480,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:曲阳路:station:四平路",
       "from_station_id": "station:曲阳路",
       "to_station_id": "station:四平路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1056,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:四平路:station:鞍山新村",
       "from_station_id": "station:四平路",
       "to_station_id": "station:鞍山新村",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 829,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "8:station:鞍山新村:station:江浦路",
       "from_station_id": "station:鞍山新村",
       "to_station_id": "station:江浦路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 877,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:江浦路:station:黄兴路",
       "from_station_id": "station:江浦路",
       "to_station_id": "station:黄兴路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1050,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:黄兴路:station:延吉中路",
       "from_station_id": "station:黄兴路",
       "to_station_id": "station:延吉中路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1273,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:延吉中路:station:黄兴公园",
       "from_station_id": "station:延吉中路",
       "to_station_id": "station:黄兴公园",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 946,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:黄兴公园:station:翔殷路",
       "from_station_id": "station:黄兴公园",
       "to_station_id": "station:翔殷路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1028,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:翔殷路:station:嫩江路",
       "from_station_id": "station:翔殷路",
       "to_station_id": "station:嫩江路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1080,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "8:station:嫩江路:station:市光路",
       "from_station_id": "station:嫩江路",
       "to_station_id": "station:市光路",
       "line_id": "8",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 882,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:上海松江站:station:醉白池",
       "from_station_id": "station:上海松江站",
       "to_station_id": "station:醉白池",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1792,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:醉白池:station:松江体育中心",
       "from_station_id": "station:醉白池",
       "to_station_id": "station:松江体育中心",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1743,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:松江体育中心:station:松江新城",
       "from_station_id": "station:松江体育中心",
       "to_station_id": "station:松江新城",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1583,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:松江新城:station:松江大学城",
       "from_station_id": "station:松江新城",
       "to_station_id": "station:松江大学城",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2643,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:松江大学城:station:洞泾",
       "from_station_id": "station:松江大学城",
       "to_station_id": "station:洞泾",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3602,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:洞泾:station:佘山",
       "from_station_id": "station:洞泾",
       "to_station_id": "station:佘山",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2204,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:佘山:station:泗泾",
       "from_station_id": "station:佘山",
       "to_station_id": "station:泗泾",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3876,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:泗泾:station:九亭",
       "from_station_id": "station:泗泾",
       "to_station_id": "station:九亭",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 6251,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:九亭:station:中春路",
       "from_station_id": "station:九亭",
       "to_station_id": "station:中春路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2262,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:中春路:station:七宝",
       "from_station_id": "station:中春路",
       "to_station_id": "station:七宝",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1279,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:七宝:station:星中路",
       "from_station_id": "station:七宝",
       "to_station_id": "station:星中路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1882,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:星中路:station:合川路",
       "from_station_id": "station:星中路",
       "to_station_id": "station:合川路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1855,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:合川路:station:漕河泾开发区",
       "from_station_id": "station:合川路",
       "to_station_id": "station:漕河泾开发区",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1334,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:漕河泾开发区:station:桂林路",
       "from_station_id": "station:漕河泾开发区",
       "to_station_id": "station:桂林路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2031,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:桂林路:station:宜山路",
       "from_station_id": "station:桂林路",
       "to_station_id": "station:宜山路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1465,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:宜山路:station:徐家汇",
       "from_station_id": "station:宜山路",
       "to_station_id": "station:徐家汇",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 912,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:徐家汇:station:肇嘉浜路",
       "from_station_id": "station:徐家汇",
       "to_station_id": "station:肇嘉浜路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1373,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:肇嘉浜路:station:嘉善路",
       "from_station_id": "station:肇嘉浜路",
       "to_station_id": "station:嘉善路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1070,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:嘉善路:station:打浦桥",
       "from_station_id": "station:嘉善路",
       "to_station_id": "station:打浦桥",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 852,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:打浦桥:station:马当路",
       "from_station_id": "station:打浦桥",
       "to_station_id": "station:马当路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 987,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:马当路:station:陆家浜路",
       "from_station_id": "station:马当路",
       "to_station_id": "station:陆家浜路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 844,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:陆家浜路:station:小南门",
       "from_station_id": "station:陆家浜路",
       "to_station_id": "station:小南门",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1498,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:小南门:station:商城路",
       "from_station_id": "station:小南门",
       "to_station_id": "station:商城路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2490,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:商城路:station:世纪大道",
       "from_station_id": "station:商城路",
       "to_station_id": "station:世纪大道",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1116,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:世纪大道:station:杨高中路",
       "from_station_id": "station:世纪大道",
       "to_station_id": "station:杨高中路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2387,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:杨高中路:station:芳甸路",
       "from_station_id": "station:杨高中路",
       "to_station_id": "station:芳甸路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1065,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:芳甸路:station:蓝天路",
       "from_station_id": "station:芳甸路",
       "to_station_id": "station:蓝天路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2121,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:蓝天路:station:台儿庄路",
       "from_station_id": "station:蓝天路",
       "to_station_id": "station:台儿庄路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2306,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "9:station:台儿庄路:station:金桥",
       "from_station_id": "station:台儿庄路",
       "to_station_id": "station:金桥",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1552,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:金桥:station:金吉路",
       "from_station_id": "station:金桥",
       "to_station_id": "station:金吉路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1691,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:金吉路:station:金海路",
       "from_station_id": "station:金吉路",
       "to_station_id": "station:金海路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1024,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:金海路:station:顾唐路",
       "from_station_id": "station:金海路",
       "to_station_id": "station:顾唐路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1710,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:顾唐路:station:民雷路",
       "from_station_id": "station:顾唐路",
       "to_station_id": "station:民雷路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1125,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "9:station:民雷路:station:曹路",
       "from_station_id": "station:民雷路",
       "to_station_id": "station:曹路",
       "line_id": "9",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1507,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:航中路:station:紫藤路",
       "from_station_id": "station:航中路",
       "to_station_id": "station:紫藤路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1121,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:紫藤路:station:龙柏新村",
       "from_station_id": "station:紫藤路",
       "to_station_id": "station:龙柏新村",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1286,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:龙柏新村:station:虹桥火车站",
       "from_station_id": "station:龙柏新村",
       "to_station_id": "station:虹桥火车站",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 696,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:虹桥火车站:station:虹桥2号航站楼",
       "from_station_id": "station:虹桥火车站",
       "to_station_id": "station:虹桥2号航站楼",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 696,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:虹桥2号航站楼:station:虹桥1号航站楼",
       "from_station_id": "station:虹桥2号航站楼",
       "to_station_id": "station:虹桥1号航站楼",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2026,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:虹桥1号航站楼:station:上海动物园",
       "from_station_id": "station:虹桥1号航站楼",
       "to_station_id": "station:上海动物园",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1833,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:上海动物园:station:龙溪路",
       "from_station_id": "station:上海动物园",
       "to_station_id": "station:龙溪路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1244,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:龙溪路:station:水城路",
       "from_station_id": "station:龙溪路",
       "to_station_id": "station:水城路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1303,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:水城路:station:伊犁路",
       "from_station_id": "station:水城路",
       "to_station_id": "station:伊犁路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1167,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:伊犁路:station:宋园路",
       "from_station_id": "station:伊犁路",
       "to_station_id": "station:宋园路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 800,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:宋园路:station:虹桥路",
       "from_station_id": "station:宋园路",
       "to_station_id": "station:虹桥路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1053,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:虹桥路:station:交通大学",
       "from_station_id": "station:虹桥路",
       "to_station_id": "station:交通大学",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1288,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:交通大学:station:上海图书馆",
       "from_station_id": "station:交通大学",
       "to_station_id": "station:上海图书馆",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1145,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:上海图书馆:station:陕西南路",
       "from_station_id": "station:上海图书馆",
       "to_station_id": "station:陕西南路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1618,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:陕西南路:station:一大会址·新天地",
       "from_station_id": "station:陕西南路",
       "to_station_id": "station:一大会址·新天地",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1591,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:一大会址·新天地:station:老西门",
       "from_station_id": "station:一大会址·新天地",
       "to_station_id": "station:老西门",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 880,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:老西门:station:豫园",
       "from_station_id": "station:老西门",
       "to_station_id": "station:豫园",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1401,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:豫园:station:南京东路",
       "from_station_id": "station:豫园",
       "to_station_id": "station:南京东路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1197,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:南京东路:station:天潼路",
       "from_station_id": "station:南京东路",
       "to_station_id": "station:天潼路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 672,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:天潼路:station:四川北路",
       "from_station_id": "station:天潼路",
       "to_station_id": "station:四川北路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 973,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:四川北路:station:海伦路",
       "from_station_id": "station:四川北路",
       "to_station_id": "station:海伦路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 944,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:海伦路:station:邮电新村",
       "from_station_id": "station:海伦路",
       "to_station_id": "station:邮电新村",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1181,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:邮电新村:station:四平路",
       "from_station_id": "station:邮电新村",
       "to_station_id": "station:四平路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 980,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:四平路:station:同济大学",
       "from_station_id": "station:四平路",
       "to_station_id": "station:同济大学",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 974,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:同济大学:station:国权路",
       "from_station_id": "station:同济大学",
       "to_station_id": "station:国权路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 843,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:国权路:station:五角场",
       "from_station_id": "station:国权路",
       "to_station_id": "station:五角场",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1030,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:五角场:station:江湾体育场",
       "from_station_id": "station:五角场",
       "to_station_id": "station:江湾体育场",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 629,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:江湾体育场:station:三门路",
       "from_station_id": "station:江湾体育场",
       "to_station_id": "station:三门路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1264,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:三门路:station:殷高东路 ",
       "from_station_id": "station:三门路",
       "to_station_id": "station:殷高东路 ",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 990,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:殷高东路 :station:新江湾城",
       "from_station_id": "station:殷高东路 ",
       "to_station_id": "station:新江湾城",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 815,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:新江湾城:station:国帆路",
       "from_station_id": "station:新江湾城",
       "to_station_id": "station:国帆路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1324,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "10:station:国帆路:station:双江路",
       "from_station_id": "station:国帆路",
       "to_station_id": "station:双江路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3537,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:双江路:station:高桥西",
       "from_station_id": "station:双江路",
       "to_station_id": "station:高桥西",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 972,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:高桥西:station:高桥",
       "from_station_id": "station:高桥西",
       "to_station_id": "station:高桥",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1307,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:高桥:station:港城路",
       "from_station_id": "station:高桥",
       "to_station_id": "station:港城路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1146,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "10:station:港城路:station:基隆路",
       "from_station_id": "station:港城路",
       "to_station_id": "station:基隆路",
       "line_id": "10",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1548,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:花桥:station:光明路",
       "from_station_id": "station:花桥",
       "to_station_id": "station:光明路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1267,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:光明路:station:兆丰路",
       "from_station_id": "station:光明路",
       "to_station_id": "station:兆丰路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3300,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:兆丰路:station:安亭",
       "from_station_id": "station:兆丰路",
       "to_station_id": "station:安亭",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1128,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:安亭:station:上海汽车城",
       "from_station_id": "station:安亭",
       "to_station_id": "station:上海汽车城",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1844,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:上海汽车城:station:昌吉东路",
       "from_station_id": "station:上海汽车城",
       "to_station_id": "station:昌吉东路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2286,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:昌吉东路:station:上海赛车场",
       "from_station_id": "station:昌吉东路",
       "to_station_id": "station:上海赛车场",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 5383,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:上海赛车场:station:嘉定北",
       "from_station_id": "station:上海赛车场",
       "to_station_id": "station:嘉定北",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3919,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:嘉定北:station:嘉定西",
       "from_station_id": "station:嘉定北",
       "to_station_id": "station:嘉定西",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1944,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:嘉定西:station:白银路",
       "from_station_id": "station:嘉定西",
       "to_station_id": "station:白银路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3919,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:白银路:station:嘉定新城",
       "from_station_id": "station:白银路",
       "to_station_id": "station:嘉定新城",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1887,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:嘉定新城:station:马陆",
       "from_station_id": "station:嘉定新城",
       "to_station_id": "station:马陆",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2896,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:马陆:station:陈翔公路",
       "from_station_id": "station:马陆",
       "to_station_id": "station:陈翔公路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3891,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:陈翔公路:station:南翔",
       "from_station_id": "station:陈翔公路",
       "to_station_id": "station:南翔",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1955,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:南翔:station:桃浦新村",
       "from_station_id": "station:南翔",
       "to_station_id": "station:桃浦新村",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3237,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:桃浦新村:station:武威路",
       "from_station_id": "station:桃浦新村",
       "to_station_id": "station:武威路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1637,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:武威路:station:祁连山路",
       "from_station_id": "station:武威路",
       "to_station_id": "station:祁连山路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1278,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:祁连山路:station:李子园",
       "from_station_id": "station:祁连山路",
       "to_station_id": "station:李子园",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1380,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:李子园:station:上海西站",
       "from_station_id": "station:李子园",
       "to_station_id": "station:上海西站",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1310,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:上海西站:station:真如",
       "from_station_id": "station:上海西站",
       "to_station_id": "station:真如",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1578,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:真如:station:枫桥路",
       "from_station_id": "station:真如",
       "to_station_id": "station:枫桥路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1119,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:枫桥路:station:曹杨路",
       "from_station_id": "station:枫桥路",
       "to_station_id": "station:曹杨路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 722,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:曹杨路:station:隆德路",
       "from_station_id": "station:曹杨路",
       "to_station_id": "station:隆德路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1012,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:隆德路:station:江苏路",
       "from_station_id": "station:隆德路",
       "to_station_id": "station:江苏路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1357,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:江苏路:station:交通大学",
       "from_station_id": "station:江苏路",
       "to_station_id": "station:交通大学",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2654,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:交通大学:station:徐家汇",
       "from_station_id": "station:交通大学",
       "to_station_id": "station:徐家汇",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 905,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:徐家汇:station:上海游泳馆",
       "from_station_id": "station:徐家汇",
       "to_station_id": "station:上海游泳馆",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1764,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:上海游泳馆:station:龙华",
       "from_station_id": "station:上海游泳馆",
       "to_station_id": "station:龙华",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1466,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:龙华:station:云锦路",
       "from_station_id": "station:龙华",
       "to_station_id": "station:云锦路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 945,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:云锦路:station:龙耀路",
       "from_station_id": "station:云锦路",
       "to_station_id": "station:龙耀路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 835,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:龙耀路:station:东方体育中心",
       "from_station_id": "station:龙耀路",
       "to_station_id": "station:东方体育中心",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2263,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:东方体育中心:station:三林",
       "from_station_id": "station:东方体育中心",
       "to_station_id": "station:三林",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3516,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:三林:station:三林东",
       "from_station_id": "station:三林",
       "to_station_id": "station:三林东",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3516,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:三林东:station:浦三路",
       "from_station_id": "station:三林东",
       "to_station_id": "station:浦三路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1613,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:浦三路:station:康恒路",
       "from_station_id": "station:浦三路",
       "to_station_id": "station:康恒路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1405,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:康恒路:station:御桥",
       "from_station_id": "station:康恒路",
       "to_station_id": "station:御桥",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1816,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:御桥:station:罗山路",
       "from_station_id": "station:御桥",
       "to_station_id": "station:罗山路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2509,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "11:station:罗山路:station:秀沿路",
       "from_station_id": "station:罗山路",
       "to_station_id": "station:秀沿路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1777,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:秀沿路:station:康新公路",
       "from_station_id": "station:秀沿路",
       "to_station_id": "station:康新公路",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2321,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "11:station:康新公路:station:迪士尼",
       "from_station_id": "station:康新公路",
       "to_station_id": "station:迪士尼",
       "line_id": "11",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 5074,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:七莘路:station:虹莘路",
       "from_station_id": "station:七莘路",
       "to_station_id": "station:虹莘路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1778,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:虹莘路:station:顾戴路",
       "from_station_id": "station:虹莘路",
       "to_station_id": "station:顾戴路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1177,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:顾戴路:station:东兰路",
       "from_station_id": "station:顾戴路",
       "to_station_id": "station:东兰路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1823,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:东兰路:station:虹梅路",
       "from_station_id": "station:东兰路",
       "to_station_id": "station:虹梅路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1010,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:虹梅路:station:虹漕路",
       "from_station_id": "station:虹梅路",
       "to_station_id": "station:虹漕路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1155,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:虹漕路:station:桂林公园",
       "from_station_id": "station:虹漕路",
       "to_station_id": "station:桂林公园",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 965,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:桂林公园:station:漕宝路",
       "from_station_id": "station:桂林公园",
       "to_station_id": "station:漕宝路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1284,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:漕宝路:station:龙漕路",
       "from_station_id": "station:漕宝路",
       "to_station_id": "station:龙漕路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1030,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:龙漕路:station:龙华",
       "from_station_id": "station:龙漕路",
       "to_station_id": "station:龙华",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1124,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:龙华:station:龙华中路",
       "from_station_id": "station:龙华",
       "to_station_id": "station:龙华中路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1298,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:龙华中路:station:大木桥路",
       "from_station_id": "station:龙华中路",
       "to_station_id": "station:大木桥路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1452,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:大木桥路:station:嘉善路",
       "from_station_id": "station:大木桥路",
       "to_station_id": "station:嘉善路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 975,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:嘉善路:station:陕西南路",
       "from_station_id": "station:嘉善路",
       "to_station_id": "station:陕西南路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1605,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:陕西南路:station:南京西路",
       "from_station_id": "station:陕西南路",
       "to_station_id": "station:南京西路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1385,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:南京西路:station:汉中路",
       "from_station_id": "station:南京西路",
       "to_station_id": "station:汉中路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1610,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:汉中路:station:曲阜路",
       "from_station_id": "station:汉中路",
       "to_station_id": "station:曲阜路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1283,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:曲阜路:station:天潼路",
       "from_station_id": "station:曲阜路",
       "to_station_id": "station:天潼路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1039,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:天潼路:station:国际客运中心",
       "from_station_id": "station:天潼路",
       "to_station_id": "station:国际客运中心",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1705,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:国际客运中心:station:提篮桥",
       "from_station_id": "station:国际客运中心",
       "to_station_id": "station:提篮桥",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 883,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:提篮桥:station:大连路",
       "from_station_id": "station:提篮桥",
       "to_station_id": "station:大连路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 814,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:大连路:station:江浦公园",
       "from_station_id": "station:大连路",
       "to_station_id": "station:江浦公园",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1255,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:江浦公园:station:宁国路",
       "from_station_id": "station:江浦公园",
       "to_station_id": "station:宁国路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 952,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:宁国路:station:隆昌路",
       "from_station_id": "station:宁国路",
       "to_station_id": "station:隆昌路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1413,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:隆昌路:station:爱国路",
       "from_station_id": "station:隆昌路",
       "to_station_id": "station:爱国路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 914,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:爱国路:station:复兴岛",
       "from_station_id": "station:爱国路",
       "to_station_id": "station:复兴岛",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 833,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:复兴岛:station:东陆路",
       "from_station_id": "station:复兴岛",
       "to_station_id": "station:东陆路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1732,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:东陆路:station:巨峰路",
       "from_station_id": "station:东陆路",
       "to_station_id": "station:巨峰路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1055,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:巨峰路:station:杨高北路",
       "from_station_id": "station:巨峰路",
       "to_station_id": "station:杨高北路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1271,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "12:station:杨高北路:station:金京路",
       "from_station_id": "station:杨高北路",
       "to_station_id": "station:金京路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1170,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:金京路:station:申江路",
       "from_station_id": "station:金京路",
       "to_station_id": "station:申江路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1113,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "12:station:申江路:station:金海路",
       "from_station_id": "station:申江路",
       "to_station_id": "station:金海路",
       "line_id": "12",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2803,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:金运路:station:金沙江西路",
       "from_station_id": "station:金运路",
       "to_station_id": "station:金沙江西路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1281,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:金沙江西路:station:丰庄",
       "from_station_id": "station:金沙江西路",
       "to_station_id": "station:丰庄",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2090,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:丰庄:station:祁连山南路",
       "from_station_id": "station:丰庄",
       "to_station_id": "station:祁连山南路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1209,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:祁连山南路:station:真北路",
       "from_station_id": "station:祁连山南路",
       "to_station_id": "station:真北路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1503,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:真北路:station:大渡河路",
       "from_station_id": "station:真北路",
       "to_station_id": "station:大渡河路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1203,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:大渡河路:station:金沙江路",
       "from_station_id": "station:大渡河路",
       "to_station_id": "station:金沙江路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1676,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:金沙江路:station:隆德路",
       "from_station_id": "station:金沙江路",
       "to_station_id": "station:隆德路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1216,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:隆德路:station:武宁路",
       "from_station_id": "station:隆德路",
       "to_station_id": "station:武宁路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 864,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:武宁路:station:长寿路",
       "from_station_id": "station:武宁路",
       "to_station_id": "station:长寿路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1009,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:长寿路:station:江宁路",
       "from_station_id": "station:长寿路",
       "to_station_id": "station:江宁路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 759,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:江宁路:station:汉中路",
       "from_station_id": "station:江宁路",
       "to_station_id": "station:汉中路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1603,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:汉中路:station:自然博物馆",
       "from_station_id": "station:汉中路",
       "to_station_id": "station:自然博物馆",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 616,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:自然博物馆:station:南京西路",
       "from_station_id": "station:自然博物馆",
       "to_station_id": "station:南京西路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 887,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:南京西路:station:淮海中路",
       "from_station_id": "station:南京西路",
       "to_station_id": "station:淮海中路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 955,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:淮海中路:station:一大会址·新天地",
       "from_station_id": "station:淮海中路",
       "to_station_id": "station:一大会址·新天地",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1210,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:一大会址·新天地:station:马当路",
       "from_station_id": "station:一大会址·新天地",
       "to_station_id": "station:马当路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 622,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:马当路:station:世博会博物馆",
       "from_station_id": "station:马当路",
       "to_station_id": "station:世博会博物馆",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1555,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:世博会博物馆:station:世博大道",
       "from_station_id": "station:世博会博物馆",
       "to_station_id": "station:世博大道",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1651,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:世博大道:station:长清路",
       "from_station_id": "station:世博大道",
       "to_station_id": "station:长清路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1056,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:长清路:station:成山路",
       "from_station_id": "station:长清路",
       "to_station_id": "station:成山路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 990,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:成山路:station:东明路",
       "from_station_id": "station:成山路",
       "to_station_id": "station:东明路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1390,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:东明路:station:华鹏路 ",
       "from_station_id": "station:东明路",
       "to_station_id": "station:华鹏路 ",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1464,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:华鹏路 :station:下南路",
       "from_station_id": "station:华鹏路 ",
       "to_station_id": "station:下南路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1361,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:下南路:station:北蔡",
       "from_station_id": "station:下南路",
       "to_station_id": "station:北蔡",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1138,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:北蔡:station:陈春路 ",
       "from_station_id": "station:北蔡",
       "to_station_id": "station:陈春路 ",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 969,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:陈春路 :station:莲溪路",
       "from_station_id": "station:陈春路 ",
       "to_station_id": "station:莲溪路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1239,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "13:station:莲溪路:station:华夏中路",
       "from_station_id": "station:莲溪路",
       "to_station_id": "station:华夏中路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1590,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:华夏中路:station:中科路",
       "from_station_id": "station:华夏中路",
       "to_station_id": "station:中科路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2059,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:中科路:station:学林路 ",
       "from_station_id": "station:中科路",
       "to_station_id": "station:学林路 ",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1308,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "13:station:学林路 :station:张江路",
       "from_station_id": "station:学林路 ",
       "to_station_id": "station:张江路",
       "line_id": "13",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1573,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:封浜:station:乐秀路",
       "from_station_id": "station:封浜",
       "to_station_id": "station:乐秀路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1721,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:乐秀路:station:临洮路",
       "from_station_id": "station:乐秀路",
       "to_station_id": "station:临洮路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1627,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:临洮路:station:嘉怡路",
       "from_station_id": "station:临洮路",
       "to_station_id": "station:嘉怡路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1471,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:嘉怡路:station:定边路",
       "from_station_id": "station:嘉怡路",
       "to_station_id": "station:定边路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1690,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:定边路:station:真新新村",
       "from_station_id": "station:定边路",
       "to_station_id": "station:真新新村",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 950,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:真新新村:station:真光路",
       "from_station_id": "station:真新新村",
       "to_station_id": "station:真光路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1144,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:真光路:station:铜川路",
       "from_station_id": "station:真光路",
       "to_station_id": "station:铜川路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1268,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:铜川路:station:真如",
       "from_station_id": "station:铜川路",
       "to_station_id": "station:真如",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 876,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:真如:station:中宁路",
       "from_station_id": "station:真如",
       "to_station_id": "station:中宁路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1117,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:中宁路:station:曹杨路",
       "from_station_id": "station:中宁路",
       "to_station_id": "station:曹杨路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 974,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:曹杨路:station:武宁路",
       "from_station_id": "station:曹杨路",
       "to_station_id": "station:武宁路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1161,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:武宁路:station:武定路",
       "from_station_id": "station:武宁路",
       "to_station_id": "station:武定路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 761,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:武定路:station:静安寺",
       "from_station_id": "station:武定路",
       "to_station_id": "station:静安寺",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1179,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:静安寺:station:一大会址·黄陂南路",
       "from_station_id": "station:静安寺",
       "to_station_id": "station:一大会址·黄陂南路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2944,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:一大会址·黄陂南路:station:大世界",
       "from_station_id": "station:一大会址·黄陂南路",
       "to_station_id": "station:大世界",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 803,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:大世界:station:豫园",
       "from_station_id": "station:大世界",
       "to_station_id": "station:豫园",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 950,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:豫园:station:陆家嘴",
       "from_station_id": "station:豫园",
       "to_station_id": "station:陆家嘴",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1465,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:陆家嘴:station:浦东南路",
       "from_station_id": "station:陆家嘴",
       "to_station_id": "station:浦东南路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1070,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:浦东南路:station:浦东大道",
       "from_station_id": "station:浦东南路",
       "to_station_id": "station:浦东大道",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 656,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:浦东大道:station:源深路",
       "from_station_id": "station:浦东大道",
       "to_station_id": "station:源深路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1172,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:源深路:station:昌邑路",
       "from_station_id": "station:源深路",
       "to_station_id": "station:昌邑路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 885,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:昌邑路:station:歇浦路",
       "from_station_id": "station:昌邑路",
       "to_station_id": "station:歇浦路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1347,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:歇浦路:station:云山路",
       "from_station_id": "station:歇浦路",
       "to_station_id": "station:云山路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2822,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:云山路:station:蓝天路",
       "from_station_id": "station:云山路",
       "to_station_id": "station:蓝天路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1271,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:蓝天路:station:黄杨路",
       "from_station_id": "station:蓝天路",
       "to_station_id": "station:黄杨路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1917,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "14:station:黄杨路:station:云顺路",
       "from_station_id": "station:黄杨路",
       "to_station_id": "station:云顺路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 949,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:云顺路:station:浦东足球场",
       "from_station_id": "station:云顺路",
       "to_station_id": "station:浦东足球场",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1524,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:浦东足球场:station:金粤路",
       "from_station_id": "station:浦东足球场",
       "to_station_id": "station:金粤路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1315,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "14:station:金粤路:station:桂桥路",
       "from_station_id": "station:金粤路",
       "to_station_id": "station:桂桥路",
       "line_id": "14",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1170,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:紫竹高新区:station:永德路",
       "from_station_id": "station:紫竹高新区",
       "to_station_id": "station:永德路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1849,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:永德路:station:元江路",
       "from_station_id": "station:永德路",
       "to_station_id": "station:元江路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2856,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:元江路:station:双柏路",
       "from_station_id": "station:元江路",
       "to_station_id": "station:双柏路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2467,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:双柏路:station:曙建路",
       "from_station_id": "station:双柏路",
       "to_station_id": "station:曙建路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 923,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:曙建路:station:景西路",
       "from_station_id": "station:曙建路",
       "to_station_id": "station:景西路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 702,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:景西路:station:虹梅南路",
       "from_station_id": "station:景西路",
       "to_station_id": "station:虹梅南路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1443,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:虹梅南路:station:景洪路",
       "from_station_id": "station:虹梅南路",
       "to_station_id": "station:景洪路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1683,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:景洪路:station:朱梅路",
       "from_station_id": "station:景洪路",
       "to_station_id": "station:朱梅路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1224,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:朱梅路:station:罗秀路",
       "from_station_id": "station:朱梅路",
       "to_station_id": "station:罗秀路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 866,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:罗秀路:station:华东理工大学",
       "from_station_id": "station:罗秀路",
       "to_station_id": "station:华东理工大学",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1550,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:华东理工大学:station:上海南站",
       "from_station_id": "station:华东理工大学",
       "to_station_id": "station:上海南站",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1623,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:上海南站:station:桂林公园",
       "from_station_id": "station:上海南站",
       "to_station_id": "station:桂林公园",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1828,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:桂林公园:station:桂林路",
       "from_station_id": "station:桂林公园",
       "to_station_id": "station:桂林路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 862,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:桂林路:station:吴中路",
       "from_station_id": "station:桂林路",
       "to_station_id": "station:吴中路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1023,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:吴中路:station:姚虹路",
       "from_station_id": "station:吴中路",
       "to_station_id": "station:姚虹路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 948,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:姚虹路:station:红宝石路",
       "from_station_id": "station:姚虹路",
       "to_station_id": "station:红宝石路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 826,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:红宝石路:station:娄山关路",
       "from_station_id": "station:红宝石路",
       "to_station_id": "station:娄山关路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1606,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:娄山关路:station:长风公园",
       "from_station_id": "station:娄山关路",
       "to_station_id": "station:长风公园",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1487,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:长风公园:station:大渡河路",
       "from_station_id": "station:长风公园",
       "to_station_id": "station:大渡河路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 784,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:大渡河路:station:梅岭北路",
       "from_station_id": "station:大渡河路",
       "to_station_id": "station:梅岭北路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1221,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:梅岭北路:station:铜川路",
       "from_station_id": "station:梅岭北路",
       "to_station_id": "station:铜川路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 862,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:铜川路:station:上海西站",
       "from_station_id": "station:铜川路",
       "to_station_id": "station:上海西站",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1416,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:上海西站:station:武威东路",
       "from_station_id": "station:上海西站",
       "to_station_id": "station:武威东路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1657,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:武威东路:station:古浪路",
       "from_station_id": "station:武威东路",
       "to_station_id": "station:古浪路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1035,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:古浪路:station:祁安路",
       "from_station_id": "station:古浪路",
       "to_station_id": "station:祁安路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1293,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "15:station:祁安路:station:南大路",
       "from_station_id": "station:祁安路",
       "to_station_id": "station:南大路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 944,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:南大路:station:丰翔路",
       "from_station_id": "station:南大路",
       "to_station_id": "station:丰翔路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 994,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:丰翔路:station:锦秋路",
       "from_station_id": "station:丰翔路",
       "to_station_id": "station:锦秋路",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1328,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "15:station:锦秋路:station:顾村公园",
       "from_station_id": "station:锦秋路",
       "to_station_id": "station:顾村公园",
       "line_id": "15",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2799,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:龙阳路:station:华夏中路",
       "from_station_id": "station:龙阳路",
       "to_station_id": "station:华夏中路",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 4355,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:华夏中路:station:罗山路",
       "from_station_id": "station:华夏中路",
       "to_station_id": "station:罗山路",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2676,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:罗山路:station:周浦东",
       "from_station_id": "station:罗山路",
       "to_station_id": "station:周浦东",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 4977,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "16:station:周浦东:station:鹤沙航城",
       "from_station_id": "station:周浦东",
       "to_station_id": "station:鹤沙航城",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3609,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "16:station:鹤沙航城:station:航头东",
       "from_station_id": "station:鹤沙航城",
       "to_station_id": "station:航头东",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2594,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "16:station:航头东:station:新场",
       "from_station_id": "station:航头东",
       "to_station_id": "station:新场",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3660,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:新场:station:野生动物园",
       "from_station_id": "station:新场",
       "to_station_id": "station:野生动物园",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 4843,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "16:station:野生动物园:station:惠南",
       "from_station_id": "station:野生动物园",
       "to_station_id": "station:惠南",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 6038,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:惠南:station:惠南东",
       "from_station_id": "station:惠南",
       "to_station_id": "station:惠南东",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 5756,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:惠南东:station:书院",
       "from_station_id": "station:惠南东",
       "to_station_id": "station:书院",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 10671,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:书院:station:临港大道",
       "from_station_id": "station:书院",
       "to_station_id": "station:临港大道",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 7082,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "16:station:临港大道:station:滴水湖",
       "from_station_id": "station:临港大道",
       "to_station_id": "station:滴水湖",
       "line_id": "16",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2558,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "17:station:虹桥火车站:station:国家会展中心",
       "from_station_id": "station:虹桥火车站",
       "to_station_id": "station:国家会展中心",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2523,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "17:station:国家会展中心:station:蟠龙路",
       "from_station_id": "station:国家会展中心",
       "to_station_id": "station:蟠龙路",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1500,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "17:station:蟠龙路:station:徐盈路",
       "from_station_id": "station:蟠龙路",
       "to_station_id": "station:徐盈路",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2536,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "17:station:徐盈路:station:徐泾北城",
       "from_station_id": "station:徐盈路",
       "to_station_id": "station:徐泾北城",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1208,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "17:station:徐泾北城:station:嘉松中路",
       "from_station_id": "station:徐泾北城",
       "to_station_id": "station:嘉松中路",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2240,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "17:station:嘉松中路:station:赵巷",
       "from_station_id": "station:嘉松中路",
       "to_station_id": "station:赵巷",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3057,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "17:station:赵巷:station:汇金路",
       "from_station_id": "station:赵巷",
       "to_station_id": "station:汇金路",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3880,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "17:station:汇金路:station:青浦新城",
       "from_station_id": "station:汇金路",
       "to_station_id": "station:青浦新城",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2515,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "17:station:青浦新城:station:漕盈路",
       "from_station_id": "station:青浦新城",
       "to_station_id": "station:漕盈路",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2810,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "17:station:漕盈路:station:淀山湖大道",
       "from_station_id": "station:漕盈路",
       "to_station_id": "station:淀山湖大道",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3857,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "17:station:淀山湖大道:station:朱家角",
       "from_station_id": "station:淀山湖大道",
       "to_station_id": "station:朱家角",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 5835,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "17:station:朱家角:station:东方绿舟",
       "from_station_id": "station:朱家角",
       "to_station_id": "station:东方绿舟",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2807,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "17:station:东方绿舟:station:西岑",
       "from_station_id": "station:东方绿舟",
       "to_station_id": "station:西岑",
       "line_id": "17",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 512,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:航头:station:下沙",
       "from_station_id": "station:航头",
       "to_station_id": "station:下沙",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2008,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:下沙:station:鹤涛路",
       "from_station_id": "station:下沙",
       "to_station_id": "station:鹤涛路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1996,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:鹤涛路:station:沈梅路",
       "from_station_id": "station:鹤涛路",
       "to_station_id": "station:沈梅路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2322,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:沈梅路:station:繁荣路",
       "from_station_id": "station:沈梅路",
       "to_station_id": "station:繁荣路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1549,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:繁荣路:station:周浦",
       "from_station_id": "station:繁荣路",
       "to_station_id": "station:周浦",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1358,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:周浦:station:康桥",
       "from_station_id": "station:周浦",
       "to_station_id": "station:康桥",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2207,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:康桥:station:御桥",
       "from_station_id": "station:康桥",
       "to_station_id": "station:御桥",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3030,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:御桥:station:莲溪路",
       "from_station_id": "station:御桥",
       "to_station_id": "station:莲溪路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1342,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:莲溪路:station:北中路",
       "from_station_id": "station:莲溪路",
       "to_station_id": "station:北中路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1509,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:北中路:station:芳芯路",
       "from_station_id": "station:北中路",
       "to_station_id": "station:芳芯路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 954,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:芳芯路:station:龙阳路",
       "from_station_id": "station:芳芯路",
       "to_station_id": "station:龙阳路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1124,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:龙阳路:station:迎春路",
       "from_station_id": "station:龙阳路",
       "to_station_id": "station:迎春路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 2275,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:迎春路:station:杨高中路",
       "from_station_id": "station:迎春路",
       "to_station_id": "station:杨高中路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 633,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:杨高中路:station:民生路",
       "from_station_id": "station:杨高中路",
       "to_station_id": "station:民生路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 928,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:民生路:station:昌邑路",
       "from_station_id": "station:民生路",
       "to_station_id": "station:昌邑路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1189,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:昌邑路:station:丹阳路",
       "from_station_id": "station:昌邑路",
       "to_station_id": "station:丹阳路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1434,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:丹阳路:station:平凉路",
       "from_station_id": "station:丹阳路",
       "to_station_id": "station:平凉路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 748,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:平凉路:station:江浦公园",
       "from_station_id": "station:平凉路",
       "to_station_id": "station:江浦公园",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 709,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:江浦公园:station:江浦路",
       "from_station_id": "station:江浦公园",
       "to_station_id": "station:江浦路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1118,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:江浦路:station:抚顺路",
       "from_station_id": "station:江浦路",
       "to_station_id": "station:抚顺路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1072,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:抚顺路:station:国权路",
       "from_station_id": "station:抚顺路",
       "to_station_id": "station:国权路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 815,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:国权路:station:复旦大学",
       "from_station_id": "station:国权路",
       "to_station_id": "station:复旦大学",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1422,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:复旦大学:station:上海财经大学",
       "from_station_id": "station:复旦大学",
       "to_station_id": "station:上海财经大学",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1346,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:上海财经大学:station:殷高路",
       "from_station_id": "station:上海财经大学",
       "to_station_id": "station:殷高路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1536,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:殷高路:station:长江南路",
       "from_station_id": "station:殷高路",
       "to_station_id": "station:长江南路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1485,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:长江南路:station:通南路",
       "from_station_id": "station:长江南路",
       "to_station_id": "station:通南路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 601,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:通南路:station:长江西路",
       "from_station_id": "station:通南路",
       "to_station_id": "station:长江西路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1006,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:长江西路:station:爱辉路",
       "from_station_id": "station:长江西路",
       "to_station_id": "station:爱辉路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 3011,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "18:station:爱辉路:station:呼兰路",
       "from_station_id": "station:爱辉路",
       "to_station_id": "station:呼兰路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1364,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "18:station:呼兰路:station:康文路",
       "from_station_id": "station:呼兰路",
       "to_station_id": "station:康文路",
       "line_id": "18",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1727,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "41:station:沈杜公路:station:三鲁公路",
       "from_station_id": "station:沈杜公路",
       "to_station_id": "station:三鲁公路",
       "line_id": "41",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1972,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "41:station:三鲁公路:station:闵瑞路",
       "from_station_id": "station:三鲁公路",
       "to_station_id": "station:闵瑞路",
       "line_id": "41",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1013,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     },
     {
       "id": "41:station:闵瑞路:station:浦航路",
       "from_station_id": "station:闵瑞路",
       "to_station_id": "station:浦航路",
       "line_id": "41",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 776,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "41:station:浦航路:station:东城一路",
       "from_station_id": "station:浦航路",
       "to_station_id": "station:东城一路",
       "line_id": "41",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1181,
+      "distance_source": "pdf_label",
+      "verification": "reviewed"
     },
     {
       "id": "41:station:东城一路:station:汇臻路",
       "from_station_id": "station:东城一路",
       "to_station_id": "station:汇臻路",
       "line_id": "41",
-      "distance_m": null,
-      "distance_source": null,
-      "verification": "pending_pdf"
+      "distance_m": 1351,
+      "distance_source": "pdf_label",
+      "verification": "auto_read"
     }
   ]
 }

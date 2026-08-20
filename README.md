@@ -14,6 +14,19 @@ python3 scripts/fetch_official_snapshot.py --output data/raw/official
 python3 scripts/build_official_network.py data/raw/official/<timestamp>
 ```
 
+`scripts/extract_pdf_distances.py` writes direct, unambiguous readings to `data/auto-distances.json`. `data/distance-audit.json` is reserved for segments that remain ambiguous or cannot be matched to a station label.
+
+```json
+{"edge_id": "<edge id>", "distance_m": <printed metre value>, "verification": "reviewed"}
+```
+
+```bash
+python3 scripts/extract_pdf_distances.py
+python3 scripts/apply_pdf_distances.py
+```
+
+For manual review, run `python3 scripts/audit_server.py` and open `http://127.0.0.1:8765`. Confirm the candidate value or type the correct metre value; the page updates the graph and removes the item from the audit list.
+
 Run the current tests:
 
 ```bash

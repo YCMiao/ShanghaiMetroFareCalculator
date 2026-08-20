@@ -1,0 +1,1561 @@
+{
+  "source_pdf": "上海轨道交通全网配线V2025.26.2.pdf",
+  "unit": "m",
+  "entries": [
+    {
+      "edge_id": "1:station:莘庄:station:外环路",
+      "distance_m": 1303,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:外环路:station:莲花路",
+      "distance_m": 1459,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:莲花路:station:锦江乐园",
+      "distance_m": 1633,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:锦江乐园:station:上海南站",
+      "distance_m": 2089,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:常熟路:station:陕西南路",
+      "distance_m": 939,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:一大会址·黄陂南路:station:人民广场",
+      "distance_m": 807,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:新闸路:station:汉中路",
+      "distance_m": 975,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:中山北路:station:延长路",
+      "distance_m": 1482,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:延长路:station:上海马戏城",
+      "distance_m": 996,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:上海马戏城:station:汶水路",
+      "distance_m": 1433,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:汶水路:station:彭浦新村",
+      "distance_m": 1563,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:彭浦新村:station:共康路",
+      "distance_m": 1397,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:共康路:station:通河新村",
+      "distance_m": 1425,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:通河新村:station:呼兰路",
+      "distance_m": 1030,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:呼兰路:station:共富新村",
+      "distance_m": 1777,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:共富新村:station:宝安公路",
+      "distance_m": 1643,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:宝安公路:station:友谊西路",
+      "distance_m": 1314,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "1:station:友谊西路:station:富锦路",
+      "distance_m": 1274,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:蟠祥路·国家会计学院:station:国家会展中心",
+      "distance_m": 1640,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:淞虹路:station:北新泾",
+      "distance_m": 1367,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:北新泾:station:威宁路",
+      "distance_m": 1260,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:威宁路:station:娄山关路",
+      "distance_m": 1661,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:娄山关路:station:中山公园",
+      "distance_m": 1618,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:南京西路:station:人民广场",
+      "distance_m": 917,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:人民广场:station:南京东路",
+      "distance_m": 1131,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:南京东路:station:陆家嘴",
+      "distance_m": 1828,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:陆家嘴:station:浦东南路",
+      "distance_m": 1367,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:浦东南路:station:世纪大道",
+      "distance_m": 1245,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:张江高科:station:金科路",
+      "distance_m": 1393,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:金科路:station:广兰路",
+      "distance_m": 2031,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:唐镇:station:创新中路",
+      "distance_m": 1788,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:创新中路:station:华夏东路",
+      "distance_m": 2104,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:川沙:station:凌空路",
+      "distance_m": 2595,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "2:station:凌空路:station:远东大道",
+      "distance_m": 3070,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:龙漕路:station:漕溪路",
+      "distance_m": 1025,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:漕溪路:station:宜山路",
+      "distance_m": 1538,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:赤峰路:station:大柏树",
+      "distance_m": 917,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:大柏树:station:江湾镇",
+      "distance_m": 1794,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:江湾镇:station:殷高西路",
+      "distance_m": 1603,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:殷高西路:station:长江南路",
+      "distance_m": 1514,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:淞发路:station:张华浜",
+      "distance_m": 1517,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:张华浜:station:淞滨路",
+      "distance_m": 1538,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:淞滨路:station:水产路",
+      "distance_m": 1240,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:水产路:station:宝杨路",
+      "distance_m": 1755,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "3:station:宝杨路:station:友谊路",
+      "distance_m": 1029,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "4:station:杨树浦路:station:浦东大道",
+      "distance_m": 1369,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "4:station:向城路:station:蓝村路",
+      "distance_m": 960,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "4:station:塘桥:station:南浦大桥",
+      "distance_m": 2170,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "4:station:南浦大桥:station:西藏南路",
+      "distance_m": 1206,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "4:station:西藏南路:station:鲁班路",
+      "distance_m": 1401,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "4:station:鲁班路:station:大木桥路",
+      "distance_m": 1311,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:莘庄:station:春申路",
+      "distance_m": 1582,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:春申路:station:银都路",
+      "distance_m": 1075,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:银都路:station:颛桥",
+      "distance_m": 2757,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:颛桥:station:北桥",
+      "distance_m": 2551,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:北桥:station:剑川路",
+      "distance_m": 2176,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:剑川路:station:东川路",
+      "distance_m": 969,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:华宁路:station:文井路",
+      "distance_m": 1446,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:文井路:station:闵行开发区",
+      "distance_m": 1105,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:江川路:station:西渡",
+      "distance_m": 1996,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:西渡:station:萧塘",
+      "distance_m": 2747,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:萧塘:station:奉浦大道",
+      "distance_m": 2741,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:奉浦大道:station:环城东路",
+      "distance_m": 2342,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:环城东路:station:望园路",
+      "distance_m": 1899,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "5:station:金海湖:station:奉贤新城",
+      "distance_m": 1654,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:灵岩南路:station:上南路",
+      "distance_m": 1076,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:上南路:station:华夏西路",
+      "distance_m": 809,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:东明路:station:高科西路",
+      "distance_m": 1455,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:源深体育中心:station:民生路",
+      "distance_m": 907,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:北洋泾路:station:德平路",
+      "distance_m": 1329,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:德平路:station:云山路",
+      "distance_m": 983,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:云山路:station:金桥路",
+      "distance_m": 757,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:金桥路:station:博兴路",
+      "distance_m": 858,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:博兴路:station:五莲路",
+      "distance_m": 945,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:东靖路:station:五洲大道",
+      "distance_m": 1319,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:五洲大道:station:洲海路",
+      "distance_m": 1075,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:洲海路:station:外高桥保税区南",
+      "distance_m": 2054,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "6:station:外高桥保税区南:station:航津路",
+      "distance_m": 1706,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:美兰湖:station:罗南新村",
+      "distance_m": 1639,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:潘广路:station:刘行",
+      "distance_m": 966,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:刘行:station:顾村公园",
+      "distance_m": 1754,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:祁华路:station:上海大学",
+      "distance_m": 1691,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:上海大学:station:南陈路",
+      "distance_m": 937,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:南陈路:station:上大路",
+      "distance_m": 1343,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:上大路:station:场中路",
+      "distance_m": 1346,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:场中路:station:大场镇",
+      "distance_m": 1232,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:新村路:station:岚皋路",
+      "distance_m": 844,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:岚皋路:station:镇坪路",
+      "distance_m": 1587,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:镇坪路:station:长寿路",
+      "distance_m": 1015,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:长寿路:station:昌平路",
+      "distance_m": 831,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:昌平路:station:静安寺",
+      "distance_m": 1321,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:静安寺:station:常熟路",
+      "distance_m": 1091,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:肇嘉浜路:station:东安路",
+      "distance_m": 939,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:东安路:station:龙华中路",
+      "distance_m": 768,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:后滩:station:长清路",
+      "distance_m": 1263,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:长清路:station:耀华路",
+      "distance_m": 926,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:耀华路:station:云台路",
+      "distance_m": 703,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:云台路:station:高科西路",
+      "distance_m": 1073,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:高科西路:station:杨高南路",
+      "distance_m": 1503,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:杨高南路:station:锦绣路",
+      "distance_m": 1413,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:锦绣路:station:芳华路",
+      "distance_m": 1443,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "7:station:龙阳路:station:花木路",
+      "distance_m": 1375,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:沈杜公路:station:联航路",
+      "distance_m": 1357,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:江月路:station:浦江镇",
+      "distance_m": 1384,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:浦江镇:station:芦恒路",
+      "distance_m": 2621,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:芦恒路:station:凌兆新村",
+      "distance_m": 2595,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:成山路:station:耀华路",
+      "distance_m": 902,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:耀华路:station:中华艺术宫",
+      "distance_m": 743,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:中华艺术宫:station:西藏南路",
+      "distance_m": 2042,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:西藏南路:station:陆家浜路",
+      "distance_m": 817,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:陆家浜路:station:老西门",
+      "distance_m": 825,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:老西门:station:大世界",
+      "distance_m": 1004,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:中兴路:station:西藏北路",
+      "distance_m": 1226,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:虹口足球场:station:曲阳路",
+      "distance_m": 1480,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:曲阳路:station:四平路",
+      "distance_m": 1056,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:鞍山新村:station:江浦路",
+      "distance_m": 877,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:江浦路:station:黄兴路",
+      "distance_m": 1050,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:黄兴路:station:延吉中路",
+      "distance_m": 1273,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:延吉中路:station:黄兴公园",
+      "distance_m": 946,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:黄兴公园:station:翔殷路",
+      "distance_m": 1028,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:翔殷路:station:嫩江路",
+      "distance_m": 1080,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "8:station:嫩江路:station:市光路",
+      "distance_m": 882,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:上海松江站:station:醉白池",
+      "distance_m": 1792,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:松江体育中心:station:松江新城",
+      "distance_m": 1583,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:松江大学城:station:洞泾",
+      "distance_m": 3602,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:洞泾:station:佘山",
+      "distance_m": 2204,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:中春路:station:七宝",
+      "distance_m": 1279,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:七宝:station:星中路",
+      "distance_m": 1882,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:星中路:station:合川路",
+      "distance_m": 1855,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:合川路:station:漕河泾开发区",
+      "distance_m": 1334,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:漕河泾开发区:station:桂林路",
+      "distance_m": 2031,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:宜山路:station:徐家汇",
+      "distance_m": 912,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:徐家汇:station:肇嘉浜路",
+      "distance_m": 1373,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:肇嘉浜路:station:嘉善路",
+      "distance_m": 1070,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:嘉善路:station:打浦桥",
+      "distance_m": 852,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:打浦桥:station:马当路",
+      "distance_m": 987,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:马当路:station:陆家浜路",
+      "distance_m": 844,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:陆家浜路:station:小南门",
+      "distance_m": 1498,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:小南门:station:商城路",
+      "distance_m": 2490,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:商城路:station:世纪大道",
+      "distance_m": 1116,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:杨高中路:station:芳甸路",
+      "distance_m": 1065,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:芳甸路:station:蓝天路",
+      "distance_m": 2121,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:台儿庄路:station:金桥",
+      "distance_m": 1552,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:金桥:station:金吉路",
+      "distance_m": 1691,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:金吉路:station:金海路",
+      "distance_m": 1024,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:金海路:station:顾唐路",
+      "distance_m": 1710,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:顾唐路:station:民雷路",
+      "distance_m": 1125,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "9:station:民雷路:station:曹路",
+      "distance_m": 1507,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:航中路:station:紫藤路",
+      "distance_m": 1121,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:虹桥1号航站楼:station:上海动物园",
+      "distance_m": 1833,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:龙溪路:station:水城路",
+      "distance_m": 1303,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:水城路:station:伊犁路",
+      "distance_m": 1167,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:伊犁路:station:宋园路",
+      "distance_m": 800,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:宋园路:station:虹桥路",
+      "distance_m": 1053,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:虹桥路:station:交通大学",
+      "distance_m": 1288,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:交通大学:station:上海图书馆",
+      "distance_m": 1145,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:一大会址·新天地:station:老西门",
+      "distance_m": 880,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:南京东路:station:天潼路",
+      "distance_m": 672,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:天潼路:station:四川北路",
+      "distance_m": 973,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:四川北路:station:海伦路",
+      "distance_m": 944,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:同济大学:station:国权路",
+      "distance_m": 843,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:国权路:station:五角场",
+      "distance_m": 1030,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:五角场:station:江湾体育场",
+      "distance_m": 629,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:江湾体育场:station:三门路",
+      "distance_m": 1264,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:国帆路:station:双江路",
+      "distance_m": 3537,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:双江路:station:高桥西",
+      "distance_m": 972,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:高桥西:station:高桥",
+      "distance_m": 1307,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "10:station:高桥:station:港城路",
+      "distance_m": 1146,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:花桥:station:光明路",
+      "distance_m": 1267,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:光明路:station:兆丰路",
+      "distance_m": 3300,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:兆丰路:station:安亭",
+      "distance_m": 1128,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:安亭:station:上海汽车城",
+      "distance_m": 1844,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:昌吉东路:station:上海赛车场",
+      "distance_m": 5383,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:嘉定北:station:嘉定西",
+      "distance_m": 1944,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:白银路:station:嘉定新城",
+      "distance_m": 1887,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:嘉定新城:station:马陆",
+      "distance_m": 2896,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:马陆:station:陈翔公路",
+      "distance_m": 3891,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:陈翔公路:station:南翔",
+      "distance_m": 1955,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:桃浦新村:station:武威路",
+      "distance_m": 1637,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:武威路:station:祁连山路",
+      "distance_m": 1278,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:祁连山路:station:李子园",
+      "distance_m": 1380,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:李子园:station:上海西站",
+      "distance_m": 1310,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:隆德路:station:江苏路",
+      "distance_m": 1357,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:江苏路:station:交通大学",
+      "distance_m": 2654,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:交通大学:station:徐家汇",
+      "distance_m": 905,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:上海游泳馆:station:龙华",
+      "distance_m": 1466,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:龙华:station:云锦路",
+      "distance_m": 945,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:三林:station:三林东",
+      "distance_m": 3516,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:三林东:station:浦三路",
+      "distance_m": 1613,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:浦三路:station:康恒路",
+      "distance_m": 1405,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:康恒路:station:御桥",
+      "distance_m": 1816,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:罗山路:station:秀沿路",
+      "distance_m": 1777,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:秀沿路:station:康新公路",
+      "distance_m": 2321,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "11:station:康新公路:station:迪士尼",
+      "distance_m": 5074,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:七莘路:station:虹莘路",
+      "distance_m": 1778,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:虹莘路:station:顾戴路",
+      "distance_m": 1177,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:顾戴路:station:东兰路",
+      "distance_m": 1823,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:虹梅路:station:虹漕路",
+      "distance_m": 1155,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:虹漕路:station:桂林公园",
+      "distance_m": 965,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:桂林公园:station:漕宝路",
+      "distance_m": 1284,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:漕宝路:station:龙漕路",
+      "distance_m": 1030,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:龙漕路:station:龙华",
+      "distance_m": 1124,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:大木桥路:station:嘉善路",
+      "distance_m": 975,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:嘉善路:station:陕西南路",
+      "distance_m": 1605,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:汉中路:station:曲阜路",
+      "distance_m": 1283,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:曲阜路:station:天潼路",
+      "distance_m": 1039,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:国际客运中心:station:提篮桥",
+      "distance_m": 883,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:提篮桥:station:大连路",
+      "distance_m": 814,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:大连路:station:江浦公园",
+      "distance_m": 1255,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:宁国路:station:隆昌路",
+      "distance_m": 1413,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:隆昌路:station:爱国路",
+      "distance_m": 914,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:爱国路:station:复兴岛",
+      "distance_m": 833,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:复兴岛:station:东陆路",
+      "distance_m": 1732,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:杨高北路:station:金京路",
+      "distance_m": 1170,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "12:station:金京路:station:申江路",
+      "distance_m": 1113,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:金运路:station:金沙江西路",
+      "distance_m": 1281,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:金沙江西路:station:丰庄",
+      "distance_m": 2090,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:丰庄:station:祁连山南路",
+      "distance_m": 1209,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:祁连山南路:station:真北路",
+      "distance_m": 1503,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:真北路:station:大渡河路",
+      "distance_m": 1203,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:金沙江路:station:隆德路",
+      "distance_m": 1216,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:隆德路:station:武宁路",
+      "distance_m": 864,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:武宁路:station:长寿路",
+      "distance_m": 1009,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:长寿路:station:江宁路",
+      "distance_m": 759,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:江宁路:station:汉中路",
+      "distance_m": 1603,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:自然博物馆:station:南京西路",
+      "distance_m": 887,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:一大会址·新天地:station:马当路",
+      "distance_m": 622,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:马当路:station:世博会博物馆",
+      "distance_m": 1555,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:世博会博物馆:station:世博大道",
+      "distance_m": 1651,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:东明路:station:华鹏路 ",
+      "distance_m": 1464,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:华鹏路 :station:下南路",
+      "distance_m": 1361,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:下南路:station:北蔡",
+      "distance_m": 1138,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:莲溪路:station:华夏中路",
+      "distance_m": 1590,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:华夏中路:station:中科路",
+      "distance_m": 2059,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:中科路:station:学林路 ",
+      "distance_m": 1308,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "13:station:学林路 :station:张江路",
+      "distance_m": 1573,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:封浜:station:乐秀路",
+      "distance_m": 1721,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:乐秀路:station:临洮路",
+      "distance_m": 1627,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:临洮路:station:嘉怡路",
+      "distance_m": 1471,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:嘉怡路:station:定边路",
+      "distance_m": 1690,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:定边路:station:真新新村",
+      "distance_m": 950,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:真新新村:station:真光路",
+      "distance_m": 1144,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:真光路:station:铜川路",
+      "distance_m": 1268,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:铜川路:station:真如",
+      "distance_m": 876,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:武宁路:station:武定路",
+      "distance_m": 761,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:一大会址·黄陂南路:station:大世界",
+      "distance_m": 803,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:大世界:station:豫园",
+      "distance_m": 950,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:豫园:station:陆家嘴",
+      "distance_m": 1465,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:陆家嘴:station:浦东南路",
+      "distance_m": 1070,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:浦东大道:station:源深路",
+      "distance_m": 1172,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:源深路:station:昌邑路",
+      "distance_m": 885,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:昌邑路:station:歇浦路",
+      "distance_m": 1347,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:云山路:station:蓝天路",
+      "distance_m": 1271,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:黄杨路:station:云顺路",
+      "distance_m": 949,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:云顺路:station:浦东足球场",
+      "distance_m": 1524,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "14:station:浦东足球场:station:金粤路",
+      "distance_m": 1315,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:紫竹高新区:station:永德路",
+      "distance_m": 1849,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:永德路:station:元江路",
+      "distance_m": 2856,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:元江路:station:双柏路",
+      "distance_m": 2467,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:双柏路:station:曙建路",
+      "distance_m": 923,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:曙建路:station:景西路",
+      "distance_m": 702,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:景西路:station:虹梅南路",
+      "distance_m": 1443,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:朱梅路:station:罗秀路",
+      "distance_m": 866,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:罗秀路:station:华东理工大学",
+      "distance_m": 1550,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:上海南站:station:桂林公园",
+      "distance_m": 1828,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:桂林路:station:吴中路",
+      "distance_m": 1023,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:吴中路:station:姚虹路",
+      "distance_m": 948,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:姚虹路:station:红宝石路",
+      "distance_m": 826,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:红宝石路:station:娄山关路",
+      "distance_m": 1606,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:娄山关路:station:长风公园",
+      "distance_m": 1487,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:大渡河路:station:梅岭北路",
+      "distance_m": 1221,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:梅岭北路:station:铜川路",
+      "distance_m": 862,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:武威东路:station:古浪路",
+      "distance_m": 1035,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:祁安路:station:南大路",
+      "distance_m": 944,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:南大路:station:丰翔路",
+      "distance_m": 994,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "15:station:丰翔路:station:锦秋路",
+      "distance_m": 1328,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "16:station:罗山路:station:周浦东",
+      "distance_m": 4977,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "16:station:周浦东:station:鹤沙航城",
+      "distance_m": 3609,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "16:station:鹤沙航城:station:航头东",
+      "distance_m": 2594,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "16:station:新场:station:野生动物园",
+      "distance_m": 4843,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "17:station:国家会展中心:station:蟠龙路",
+      "distance_m": 1500,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "17:station:徐盈路:station:徐泾北城",
+      "distance_m": 1208,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "17:station:徐泾北城:station:嘉松中路",
+      "distance_m": 2240,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "17:station:嘉松中路:station:赵巷",
+      "distance_m": 3057,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "17:station:赵巷:station:汇金路",
+      "distance_m": 3880,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "17:station:汇金路:station:青浦新城",
+      "distance_m": 2515,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "17:station:朱家角:station:东方绿舟",
+      "distance_m": 2807,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:航头:station:下沙",
+      "distance_m": 2008,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:鹤涛路:station:沈梅路",
+      "distance_m": 2322,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:沈梅路:station:繁荣路",
+      "distance_m": 1549,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:繁荣路:station:周浦",
+      "distance_m": 1358,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:周浦:station:康桥",
+      "distance_m": 2207,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:康桥:station:御桥",
+      "distance_m": 3030,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:莲溪路:station:北中路",
+      "distance_m": 1509,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:北中路:station:芳芯路",
+      "distance_m": 954,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:迎春路:station:杨高中路",
+      "distance_m": 633,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:昌邑路:station:丹阳路",
+      "distance_m": 1434,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:平凉路:station:江浦公园",
+      "distance_m": 709,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:江浦路:station:抚顺路",
+      "distance_m": 1072,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:抚顺路:station:国权路",
+      "distance_m": 815,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:国权路:station:复旦大学",
+      "distance_m": 1422,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:复旦大学:station:上海财经大学",
+      "distance_m": 1346,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:上海财经大学:station:殷高路",
+      "distance_m": 1536,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:殷高路:station:长江南路",
+      "distance_m": 1485,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:长江南路:station:通南路",
+      "distance_m": 601,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:通南路:station:长江西路",
+      "distance_m": 1006,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:爱辉路:station:呼兰路",
+      "distance_m": 1364,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "18:station:呼兰路:station:康文路",
+      "distance_m": 1727,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "41:station:沈杜公路:station:三鲁公路",
+      "distance_m": 1972,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "41:station:三鲁公路:station:闵瑞路",
+      "distance_m": 1013,
+      "verification": "auto_read"
+    },
+    {
+      "edge_id": "41:station:东城一路:station:汇臻路",
+      "distance_m": 1351,
+      "verification": "auto_read"
+    }
+  ]
+}
