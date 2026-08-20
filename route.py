@@ -85,6 +85,25 @@ def format_route(network: dict, route: Route) -> str:
         name = names[station_id]
         if not route_names or route_names[-1] != name:
             route_names.append(name)
+    lines_by_id = {line["id"]: line for line in network.get("lines", [])}
+    legs, active_leg = [], None
+    for index, edge_id in enumerate(route.edge_ids):
+        edge = edges[edge_id]
+        if "line_id" not in edge:
+            active_leg = None
+            continue
+        line_id = edge["line_id"]
+        destination_name = names[route.station_ids[index + 1]]
+        if active_leg is None or active_leg["line_id"] != line_id:
+            active_leg = {
+                "line_id": line_id,
+                "line_name": lines_by_id.get(line_id, {}).get("name", f"{line_id}号线"),
+                "color": lines_by_id.get(line_id, {}).get("color") or "#e23646",
+                "stations": [names[route.station_ids[index]], destination_name],
+            }
+            legs.append(active_leg)
+        else:
+            active_leg["stations"].append(destination_name)
     transfer_lines = []
     for index, edge_id in enumerate(route.edge_ids):
         if not edge_id.startswith("transfer:"):
@@ -92,10 +111,17 @@ def format_route(network: dict, route: Route) -> str:
         before = next((edges[item]["line_id"] for item in reversed(route.edge_ids[:index]) if "line_id" in edges[item]), None)
         after = next((edges[item]["line_id"] for item in route.edge_ids[index + 1:] if "line_id" in edges[item]), None)
         station_name = names[route.station_ids[index]]
-        transfer_lines.append(f"{station_name}（{before}号线 → {after}号线）")
-    lines = [f"总距离：{route.distance_m:g} m", f"票价：{fare_yuan(route.distance_m)} 元", f"途经：{' → '.join(route_names)}"]
-    if transfer_lines:
-        lines.append(f"换乘：{'；'.join(transfer_lines)}")
+        transfer_lines.append({"station": station_name, "from_line_id": before, "to_line_id": after})
+    details = {
+        "distance_m": route.distance_m,
+        "fare_yuan": fare_yuan(route.distance_m),
+        "stations": route_names,
+        "legs": legs,
+        "transfers": transfer_lines,
+    }
+    lines = [f"总距离：{details['distance_m']:g} m", f"票价：{details['fare_yuan']} 元", f"途经：{' → '.join(details['stations'])}"]
+    if details["transfers"]:
+        lines.append("换乘：" + "；".join(f"{item['station']}（{item['from_line_id']}号线 → {item['to_line_id']}号线）" for item in details["transfers"]))
     return "\n".join(lines)
 
 
